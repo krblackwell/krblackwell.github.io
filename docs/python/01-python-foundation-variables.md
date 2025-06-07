@@ -1,6 +1,6 @@
 ---
 sidebar_label: Welcome
-sidebar_position: 2
+sidebar_position: 1
 last_update:
     date: 6/6/25
     author: krblackwell
@@ -29,9 +29,18 @@ print(variable1)
     1
 
 
-***TIP***
+:::tip
 here is a tip
-*** ***
+:::
+
+:::warning
+here is a warning\
+that's multiple lines
+:::
+
+:::danger
+danger danger
+:::
 
 ## Conclusion
 

@@ -2,10 +2,16 @@ import nbformat
 from nbconvert import MarkdownExporter
 import yaml
 import sys
+from preprocessor import AdmonitionPreprocessor
+from pathlib import Path
 
 notebook_path = sys.argv[1]
-output_path = '../docs'
-metadata_map_path = 'metadata_map.yml'
+input_path = Path(notebook_path)
+
+output_path = Path("docs") / input_path.relative_to("notebooks")
+output_path = output_path.with_suffix(".md")
+
+metadata_map_path = './templates/metadata_map.yml'
 
 nb = nbformat.read(notebook_path, as_version=4)
 
@@ -17,17 +23,17 @@ metadata = metadata_map['notebooks'].get(notebook_name, {})
 nb['metadata'].update(metadata)
 
 exporter = MarkdownExporter(
-    template_file="front_matter.tpl",
+    template_file="./templates/front_matter.tpl",
     template_path=["."]
 )
+
+exporter.register_preprocessor(AdmonitionPreprocessor, enabled=True)
 
 body, _ = exporter.from_notebook_node(
     nb,
     extra_template_vars={'notebook': nb, **metadata},
     resources={'metadata': metadata}
 )
-output_path = output_path.replace('.ipynb', '.md')
 
 with open(output_path, 'w') as f:
     f.write(body)
-
