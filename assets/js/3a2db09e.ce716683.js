@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_coding_fun_projects=self.webpackChunklearn_coding_fun_projects||[]).push([[121],{8070:n=>{n.exports=JSON.parse('{"tags":[{"label":"introductions","permalink":"/blog/tags/introductions","count":1}]}')}}]);

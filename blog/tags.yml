@@ -1,9 +1,0 @@
-introduction:
-  label: Introductions
-  permalink: /introduction
-  description: Introductions of people or topics.
-
-python:
-  label: Python
-  permalink: /python
-  description: Python topics.
