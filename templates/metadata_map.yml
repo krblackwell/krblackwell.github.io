@@ -1,12 +1,12 @@
 notebooks:
-  01-python-foundation-variables.ipynb:
-    sidebar_label: Welcome
+  01-python-foundations-variables.ipynb:
+    sidebar_label: variables
     sidebar_position: 1
     last_update_date: 6/6/25
     last_update_author: krblackwell
     description: Introductory Python skills, including what are variables and variable types.
     tags: [python]
-    draft: true
+    draft: false
     unlisted: false
 
   another_notebook.ipynb:

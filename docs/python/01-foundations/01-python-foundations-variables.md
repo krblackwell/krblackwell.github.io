@@ -1,12 +1,12 @@
 ---
-sidebar_label: Welcome
+sidebar_label: variables
 sidebar_position: 1
 last_update:
     date: 6/6/25
     author: krblackwell
 description: Introductory Python skills, including what are variables and variable types.
 tags: ['python']
-draft: True
+draft: False
 unlisted: False
 ---
 
