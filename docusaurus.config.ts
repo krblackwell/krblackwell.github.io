@@ -108,8 +108,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs',
+              label: 'Python',
+              to: '/docs/python',
             },
           ],
         },
