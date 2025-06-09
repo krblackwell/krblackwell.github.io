@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["python"],
+  "dictionaryDefinitions": [
+    {
+      "name": "python",
+      "path": "node_modules/@cspell/dict-python/cspell-ext.json"
+    }
+  ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/__pycache__/**"
+  ],
+  "files": ["**/*.md", "**/*.mdx"],
+  "words": [
+    "upskill",
+    "krblackwell",
+    "mybinder",
+    "colab"
+  ]
+}
