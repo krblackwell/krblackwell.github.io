@@ -61,7 +61,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-        # this looks like it requires a token
+      # I want to run this locally and read up on it more before adding it here
       # - name: Link checker (lychee)
        # uses: lycheeverse/lychee-action@v2
        # with:
