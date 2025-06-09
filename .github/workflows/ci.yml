@@ -69,7 +69,8 @@ jobs:
         run: cd node_modules
 
       - name: grep for python dictionary
-         run: ls -ahtlr | grep -i python
+        run: ls -ahtlr | grep -i python
+
       - name: Spell check markdown (cspell) - see config
         uses: streetsidesoftware/cspell-action@v7
         with:
