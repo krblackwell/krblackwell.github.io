@@ -32,6 +32,12 @@ print(variable1)
 :::tip
 here is a tip
 :::
+and some text
+
+:::tip
+but
+:::
+then
 
 :::warning
 here is a warning\

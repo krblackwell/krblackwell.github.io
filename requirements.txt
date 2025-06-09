@@ -1,0 +1,6 @@
+flake8==7.2.0
+pytest==8.4.0
+notebook==7.4.3
+nbval==0.11.0
+nbconvert==7.16.6
+

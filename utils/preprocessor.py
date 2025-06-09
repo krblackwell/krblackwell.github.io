@@ -27,7 +27,7 @@ class AdmonitionPreprocessor(Preprocessor):
 
             def replacer(match):
                 admonition_type = match.group("type").lower()
-                content = match.group("content").strip()
+                content = match.group("content").rstrip()
                 return f":::{admonition_type}\n{content}\n:::"
 
             cell.source = re.sub(pattern, replacer, cell.source)
