@@ -36,17 +36,6 @@ jobs:
               blog/**/*.mdx
             config: .markdownlint-cli2.yaml
 
-      - name: Spell check markdown (cspell) - see config
-        uses: streetsidesoftware/cspell-action@v7
-        with:
-          run: cspell --config cspell.config.json
-
-      - name: Run notebook tests
-        run: pytest --nbval notebooks
-
-      - name: Run unit tests
-        run: pytest
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -54,6 +43,34 @@ jobs:
 
       - name: Install npm dependencies
         run: npm ci
+
+      - name: check if python dictionary is there
+        run: npm list --depth=0
+      
+      - name: do a listing
+        run: ls -ahtlr
+        
+      - name: cd node_modules
+        run: cd node_modules
+      
+      - name: grep for python dictionary
+        run: ls -ahtlr | grep -i python
+
+      - name: Install cspell Python dictionary
+        run: npm install -D @cspell/dict-python
+
+      - name: Spell check markdown (cspell) - see config
+        uses: streetsidesoftware/cspell-action@v7
+        with:
+          config: cspell.config.json
+
+      - name: Run notebook tests
+        run: pytest --nbval notebooks
+
+      - name: Run unit tests
+        run: pytest
+
+
 
       - name: Build project
         run: npm run build
