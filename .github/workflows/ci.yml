@@ -27,7 +27,7 @@ jobs:
         run: flake8
 
       - name: Markdown linting - see config
-        uses: davidanson/markdownlint-action@v1
+        uses: DavidAnson/markdownlint-cli2-action@v20
 
       - name: Spell check markdown (cspell) - see config
         uses: streetsidesoftware/cspell-action@v7
@@ -41,7 +41,7 @@ jobs:
         run: pytest
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20.19.2'
 
@@ -51,8 +51,9 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Link checker (lychee)
-        uses: lycheeverse/lychee-action@v1
-        with:
-          args: --verbose
+        # this looks like it requires a token
+      # - name: Link checker (lychee)
+       # uses: lycheeverse/lychee-action@v2
+       # with:
+       #   args: --verbose
 
