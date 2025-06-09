@@ -9,9 +9,10 @@ echo flake8 return code: $?
 
 echo 
 
-echo MARKDOWN LINTING - long line linting does not affect the docusaurus page build
+echo MARKDOWN LINTING - see config
+echo MD013 long line linting does not affect the docusaurus page build, the other two disabled rules are because of the way nbconvert converts the documents
 
-npx markdownlint docs/**/*.{md,mdx} blog/**/*.{md,mdx} --disable MD013
+npx markdownlint-cli2 "docs/**/*.{md,mdx}" "blog/**/*.{md,mdx}"
 
 echo markdownlint return code: $?
 
