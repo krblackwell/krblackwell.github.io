@@ -28,13 +28,13 @@ jobs:
 
       - name: Markdown linting - see config
         uses: DavidAnson/markdownlint-action@v3
-          with:
-            config: .markdownlint.json
-            files: |
-              docs/**/*.md
-              docs/**/*.mdx
-              blog/**/*.md
-              blog/**/*.mdx
+        with:
+          config: .markdownlint.json
+          files: |
+            docs/**/*.md
+            docs/**/*.mdx
+            blog/**/*.md
+            blog/**/*.mdx
 
       - name: Spell check markdown (cspell) - see config
         uses: streetsidesoftware/cspell-action@v7
