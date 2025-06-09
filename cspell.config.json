@@ -1,22 +1,20 @@
 {
   "version": "0.2",
   "language": "en",
-  "dictionaries": ["python"],
+  "dictionaries": ["python", "custom-dictionary"],
   "dictionaryDefinitions": [
     {
       "name": "python",
       "path": "node_modules/@cspell/dict-python/cspell-ext.json"
+    },
+    {
+      "name": "custom-dictionary",
+      "path": "./cspell-custom-dictionary.txt"
     }
   ],
   "ignorePaths": [
     "**/node_modules/**",
     "**/__pycache__/**"
   ],
-  "files": ["**/*.md", "**/*.mdx"],
-  "words": [
-    "upskill",
-    "krblackwell",
-    "mybinder",
-    "colab"
-  ]
+  "files": ["**/*.md", "**/*.mdx"]
 }
