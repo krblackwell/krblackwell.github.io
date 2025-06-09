@@ -27,14 +27,14 @@ jobs:
         run: flake8
 
       - name: Markdown linting - see config
-        uses: DavidAnson/markdownlint-action@v3
-        with:
-          config: .markdownlint.json
-          files: |
-            docs/**/*.md
-            docs/**/*.mdx
-            blog/**/*.md
-            blog/**/*.mdx
+        uses: DavidAnson/markdownlint-cli2-action@v20
+          with:
+            globs: |
+              docs/**/*.md
+              docs/**/*.mdx
+              blog/**/*.md
+              blog/**/*.mdx
+            config: .markdownlint-cli2.yaml
 
       - name: Spell check markdown (cspell) - see config
         uses: streetsidesoftware/cspell-action@v7
