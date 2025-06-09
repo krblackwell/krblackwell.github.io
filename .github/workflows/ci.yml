@@ -28,7 +28,7 @@ jobs:
 
       - name: Markdown linting - see config
         uses: DavidAnson/markdownlint-cli2-action@v20
-          with:
+        with:
             globs: |
               docs/**/*.md
               docs/**/*.mdx
