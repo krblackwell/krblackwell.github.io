@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Learn Python, Make Projects Blog</title>
-        <link>https://krblackwell.github.io/blog</link>
+        <link>https://krblackwell.github.io/blog/</link>
         <description>Learn Python, Make Projects Blog</description>
         <lastBuildDate>Fri, 06 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://krblackwell.github.io/blog/welcome</link>
-            <guid>https://krblackwell.github.io/blog/welcome</guid>
+            <link>https://krblackwell.github.io/blog/welcome/</link>
+            <guid>https://krblackwell.github.io/blog/welcome/</guid>
             <pubDate>Fri, 06 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Hello! Welcome to this blog.]]></description>
             <content:encoded><![CDATA[<p>Hello! Welcome to this blog.</p>
