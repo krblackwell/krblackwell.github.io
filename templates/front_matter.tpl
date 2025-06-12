@@ -14,3 +14,15 @@ unlisted: {{ nb.metadata.unlisted | default('MISSING') }}
 ---
 {% endblock header %}
 
+{% block execute_result %}
+<div class="output-cell">
+{{ super() }}
+</div>
+{% endblock execute_result %}
+
+{% block stream %}
+<div class="output-cell">
+{{ super() }}
+</div><br></br>
+{% endblock stream %}
+

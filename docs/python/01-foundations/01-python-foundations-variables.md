@@ -14,6 +14,10 @@ unlisted: False
 
 Congratulations on taking the first step in learning Python!
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/krblackwell/krblackwell.github.io/blob/main/notebooks/python/01-foundations/01-python-foundations-variables.ipynb)\
+[![Try with Replit Badge](https://replit.com/badge?caption=Try%20with%20Replit)](https://replit.com/)
+
+
 ## Learning Objectives
 
 - blah
@@ -26,8 +30,12 @@ variable1 = 1
 print(variable1)
 ```
 
+<div class="output-cell">
+
     1
 
+
+</div><br></br>
 
 :::tip
 here is a tip
