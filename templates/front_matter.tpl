@@ -15,14 +15,18 @@ unlisted: {{ nb.metadata.unlisted | default('MISSING') }}
 {% endblock header %}
 
 {% block execute_result %}
+<!-- markdownlint disable MD033 -->
 <div class="output-cell">
 {{ super() }}
-</div>
+</div><br/>
+<!-- markdownlint enable MD033 -->
 {% endblock execute_result %}
 
 {% block stream %}
+<!-- markdownlint disable MD033 -->
 <div class="output-cell">
 {{ super() }}
-</div><br></br>
+</div><br/>
+<!-- markdownlint enable MD033 -->
 {% endblock stream %}
 

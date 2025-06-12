@@ -30,12 +30,14 @@ variable1 = 1
 print(variable1)
 ```
 
+<!-- markdownlint disable MD033 -->
 <div class="output-cell">
 
     1
 
 
-</div><br></br>
+</div><br/>
+<!-- markdownlint enable MD033 -->
 
 :::tip
 here is a tip
