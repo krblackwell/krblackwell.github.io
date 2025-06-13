@@ -2,3 +2,5 @@
 "krblackwell"
 "mybinder"
 "colab"
+"Krissy"
+"striiiiiiiiiiiiiiing"

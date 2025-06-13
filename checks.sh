@@ -9,6 +9,14 @@ echo flake8 return code: $?
 
 echo 
 
+echo NOTEBOOK LINTING
+
+nbqa flake8 ./notebooks
+
+echo nbqa return code: $?
+
+echo
+
 echo MARKDOWN LINTING - see config
 echo MD013 long line linting does not affect the docusaurus page build, the other two disabled rules are because of the way nbconvert converts the documents
 
