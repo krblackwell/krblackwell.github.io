@@ -1,6 +1,6 @@
 {
   "LiteBuildConfig": {
-    "apps": ["notebooks"],
+    "apps": ["notebooks", "lab", "tree"],
     "contents": ["notebooks"],
     "output_dir": "lite"
   }

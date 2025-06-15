@@ -1,3 +1,5 @@
+.venv/
+
 # jupyterlite
 *.doit.db
 _output

@@ -1,0 +1,8 @@
+## linting and unit tests
+flake8==7.2.0
+pytest==8.4.0
+notebook==6.5.7
+nbval==0.11.0
+
+## convert notebooks to markdown
+nbconvert==7.16.6
