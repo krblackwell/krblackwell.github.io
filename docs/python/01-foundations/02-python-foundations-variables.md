@@ -1,10 +1,10 @@
 ---
 sidebar_label: variables
-sidebar_position: 1
+sidebar_position: 2
 last_update:
-    date: 6/6/25
+    date: 6/14/25
     author: krblackwell
-description: Introductory Python skills, including what are variables and variable types.
+description: Introductory Python - What are variables?
 tags: ['python']
 draft: False
 unlisted: False
@@ -14,9 +14,9 @@ unlisted: False
 
 When you code, you'll always be using something called a `variable`. A variable is like a container that holds information. It helps you to do a few things:
 
-- use the same information again without writing it over and over
-- make many changes in one place
-- make a program more flexible
+- Use the same information again without writing it over and over.
+- Make many changes in one place.
+- Make a program more flexible.
 
 ## Learning Objectives
 
@@ -37,14 +37,14 @@ Let's look at an example without a variable, and then use a variable.
 print("Hello, World!")
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello, World!
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 We're printing a phrase here, but what if we want to change who we say "Hello" to!
 
@@ -56,14 +56,14 @@ name = "Katie"
 print("Hello,", name)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello, Katie
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 The variable can hold a name! It does more than that for us.
 
@@ -110,14 +110,14 @@ Note I added a space after "Hello."
 print("Hello " + "You! " + "How are you doing?")
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello You! How are you doing?
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 This can be added into a variable also!
 
@@ -127,14 +127,14 @@ greeting = "Hello " + "You! " + "How are you doing?"
 print(greeting)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello You! How are you doing?
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 And we can split it up into more variables.
 
@@ -145,14 +145,14 @@ greeting = "Hello " + name + "! " + "How are you doing?"
 print(greeting)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello Sam! How are you doing?
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 Notice we can change name much more easily this way. When we have a variable that's used a lot, this is very handy.
 
@@ -163,14 +163,14 @@ greeting = "Hello " + name + "! " + "How are you doing?"
 print(greeting)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     Hello Krissy! How are you doing?
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 ### Numbers can be used in math
 
@@ -187,14 +187,14 @@ number2 = 3
 print("It's " + str(number1) + "!")
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     It's 5!
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 I can do math, too. Look how I can use two variables in lots of different ways. If I ever need to change one of them, I only have to change it in one place—and it automatically updates everywhere else it’s used!
 
@@ -203,42 +203,42 @@ I can do math, too. Look how I can use two variables in lots of different ways. 
 print(number1 + number2)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     8
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 
 ```python
 print(number1 - number2)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     2
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 
 ```python
 print(number1 * number2)
 ```
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
     15
 
 
 </div><br/>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD033 MD009 -->
 
 ## Recap
 

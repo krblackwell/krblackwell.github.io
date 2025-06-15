@@ -11,6 +11,7 @@ lerna-debug.log*
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
 
 # jupyter notebooks
 .ipynb_checkpoints/
