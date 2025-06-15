@@ -1,18 +1,18 @@
 ## linting and unit tests
 flake8==7.2.0
 pytest==8.4.0
-notebook==6.5.7
+# notebook==6.5.7
 nbval==0.11.0
 
 ## convert notebooks to markdown
 nbconvert==7.16.6
 
 ## for jupyterlite
-# core package for building the JupyterLite website
-jupyterlite-core==0.1.0b19
-# the Python kernel powered by Pyodide
-jupyterlite-pyodide-kernel==0.0.5
-# jupyterlite-xeus-python==0.7.0
-# dependency for indexing the content
-jupyterlab~=3.5.3
+pydantic<2.0
+# Core modules (mandatory)
+jupyterlite-core==0.6.1
+jupyterlab~=4.4.3
+notebook~=7.4.3
 
+# Python kernel (optional)
+jupyterlite-pyodide-kernel==0.6.1
