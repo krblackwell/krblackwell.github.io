@@ -2,7 +2,7 @@
   "content": [
     {
       "content": null,
-      "created": "2025-06-15T18:12:24.812247Z",
+      "created": "2025-06-15T18:24:35.772930Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -16,7 +16,7 @@
     },
     {
       "content": null,
-      "created": "2025-06-15T18:12:24.811298Z",
+      "created": "2025-06-15T18:24:35.772303Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -30,7 +30,7 @@
     },
     {
       "content": null,
-      "created": "2025-06-15T18:12:24.811980Z",
+      "created": "2025-06-15T18:24:35.772663Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -43,11 +43,11 @@
       "writable": true
     }
   ],
-  "created": "2025-06-15T18:12:24.812247Z",
+  "created": "2025-06-15T18:24:35.772930Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-06-15T18:12:24.812247Z",
+  "last_modified": "2025-06-15T18:24:35.772930Z",
   "mimetype": null,
   "name": "01-foundations",
   "path": "python/01-foundations",
