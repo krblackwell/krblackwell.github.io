@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-06-15T20:45:37.009286Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-06-15T20:41:34.612585Z",
+      "mimetype": null,
+      "name": "03-python-foundations-f-string.ipynb",
+      "path": "python/01-foundations/03-python-foundations-f-string.ipynb",
+      "size": 15522,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-06-15T20:45:37.008689Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-06-15T20:41:34.612585Z",
+      "mimetype": null,
+      "name": "01-python-foundations-print.ipynb",
+      "path": "python/01-foundations/01-python-foundations-print.ipynb",
+      "size": 10902,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-06-15T20:45:37.009024Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-06-15T20:41:34.612585Z",
+      "mimetype": null,
+      "name": "02-python-foundations-variables.ipynb",
+      "path": "python/01-foundations/02-python-foundations-variables.ipynb",
+      "size": 9079,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-06-15T20:45:37.009286Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-06-15T20:45:37.009286Z",
+  "mimetype": null,
+  "name": "01-foundations",
+  "path": "python/01-foundations",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
