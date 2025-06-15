@@ -2,3 +2,6 @@
 exclude = 
     node_modules,
     __pycache__
+per-file-ignores =
+    notebooks/python/01-foundations/01-python-foundations-print*: W605,
+    notebooks/python/01-foundations/03-python-foundations-f-string*: F541

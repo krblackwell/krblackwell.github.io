@@ -1,21 +1,30 @@
 notebooks:
-  01-python-foundations-variables.ipynb:
-    sidebar_label: variables
+  01-python-foundations-print.ipynb:
+    sidebar_label: prints
     sidebar_position: 1
-    last_update_date: 6/6/25
+    last_update_date: 6/14/25
     last_update_author: krblackwell
-    description: Introductory Python skills, including what are variables and variable types.
+    description: Introductory Python - What are prints?
     tags: [python]
     draft: false
     unlisted: false
 
-  another_notebook.ipynb:
-    sidebar_label: Advanced Python
+  02-python-foundations-variables.ipynb:
+    sidebar_label: variables
     sidebar_position: 2
-    last_update_date: 6/7/25
-    last_update_author: janedoe
-    description: Other topics in Python.
-    tags: [python, introductions]
+    last_update_date: 6/14/25
+    last_update_author: krblackwell
+    description: Introductory Python - What are variables?
+    tags: [python]
     draft: false
     unlisted: false
 
+  03-python-foundations-f-string.ipynb:
+    sidebar_label: f-strings
+    sidebar_position: 3
+    last_update_date: 6/14/25
+    last_update_author: krblackwell
+    description: Introductory Python - What are f-strings?
+    tags: [python]
+    draft: false
+    unlisted: false

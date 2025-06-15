@@ -12,7 +12,6 @@ The lessons in this site are contained in what are called notebooks. There are w
 
 - What is a notebook?
 - Use notebooks online at jupyter.org
-- Use notebooks online with mybinder.org
 - Use Jupyter notebooks on your computer
 - Use notebooks in Google colab
 
