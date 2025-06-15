@@ -1,0 +1,7 @@
+{
+  "LiteBuildConfig": {
+    "apps": ["notebook"],
+    "contents": ["notebooks"],
+    "output_dir": "static/lite"
+  }
+}

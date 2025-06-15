@@ -1,0 +1,21 @@
+{
+  "title": "a title from jupyter-lite.json",
+  "description": "description from jupyter-lite.json",
+  "pyodide": {
+    "piplite": true
+  },
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "appName": "My JupyterLite App",
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"
+      }
+    },
+    "disabledExtensions": [
+      "@jupyterlite/javascript-kernel-extension",
+      "@jupyterlite/lab-extension",
+      "@jupyterlite/retro-extension"
+    ]
+  }
+}

@@ -1,11 +1,7 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
+# jupyterlite
+*.doit.db
+_output
+static/lite/
 
 # python
 __pycache__/
@@ -15,6 +11,15 @@ __pycache__/
 
 # jupyter notebooks
 .ipynb_checkpoints/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
