@@ -111,7 +111,7 @@ const config: Config = {
           title: 'Site Links',
           items: [
             {
-              html: '<a href="/lite/lab?path=welcome.md">The Lab</a>',
+              html: '<a href="/lite/lab/index.html?path=welcome.md">The Lab</a>',
              },
             {
               label: 'Get Started with Python',

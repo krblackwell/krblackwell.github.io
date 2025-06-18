@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: (require('@site/static/img/lab.svg').default),
     description: (
       <>
-        <p><a href="/lite/lab/?path=welcome.md">Start lessons in interactive notebooks. You can add code of your own to try out what you learn as you go.</a></p>
+        <p><a href="/lite/lab/index.html?path=welcome.md">Start lessons in interactive notebooks. You can add code of your own to try out what you learn as you go.</a></p>
       </>
     ),
   },
