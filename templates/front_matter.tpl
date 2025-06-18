@@ -12,6 +12,15 @@ tags: {{ nb.metadata.tags | default('MISSING') }}
 draft: {{ nb.metadata.draft | default('MISSING') }}
 unlisted: {{ nb.metadata.unlisted | default('MISSING') }}
 ---
+{% set full_path = nb.metadata.relative_path if nb.metadata.relative_path is defined else 'MISSING' %}
+{% set rel_path = full_path | replace('notebooks/', '') %}
+
+<!-- markdownlint-disable MD033 MD041 -->
+<a href="/lite/lab/index.html?path={{ rel_path }}" target="_blank">
+  <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
+</a>
+<!-- markdownlint-enable MD033 MD041 -->
+
 {% endblock header %}
 
 {% block execute_result %}

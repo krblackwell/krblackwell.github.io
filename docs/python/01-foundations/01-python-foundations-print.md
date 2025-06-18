@@ -10,6 +10,18 @@ draft: False
 unlisted: False
 ---
 
+
+
+<!-- markdownlint-disable MD033 MD041 -->
+<a href="/lite/lab/index.html?path=python/01-foundations/01-python-foundations-print.ipynb" target="_blank">
+  <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
+</a>
+<!-- markdownlint-enable MD033 MD041 -->
+
+
+<!-- markdownlint-disable-next-line MD041 -->
+[Go back to Home](/) - [Go to Python lessons](/docs/python) - [Go to Foundations section](/docs/python/foundations)
+
 # What is print?
 
 `print()` is something you'll be using a lot. It can help you with a lot of things:
