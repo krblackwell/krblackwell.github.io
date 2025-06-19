@@ -12,7 +12,11 @@ unlisted: False
 
 # What is a notebook?
 
-The notebooks we're using to learn Python are a special kind of digital notebook where you can write notes and do computer coding in the same place. Scientists, mathematicians, data scientists, and computer programmers use it to test out ideas, solve problems, and show their work all in one spot—kind of like a mix between a notebook and a calculator that explains what it's doing!
+The notebooks we're using to learn Python are a special kind of digital notebook where you can write notes and do computer coding in the same place.
+
+:::tip
+Scientists, mathematicians, data scientists, and computer programmers use notebooks to test out ideas, solve problems, and show their work all in one spot.
+:::
 
 These notebooks are great for researchers who want to share their research. They can present data, charts, and mix text explanations between them.
 

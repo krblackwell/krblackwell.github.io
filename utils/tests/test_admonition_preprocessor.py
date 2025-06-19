@@ -9,7 +9,7 @@ def preprocessor():
 
 
 def test_admonition_transformation_tip(preprocessor):
-    cell = nbf.new_markdown_cell("""***TIP***
+    cell = nbf.new_markdown_cell("""***💡TIP***
 Here is a helpful tip.
 *** ***""")
     cell_out, _ = preprocessor.preprocess_cell(cell, {}, 0)
@@ -17,7 +17,7 @@ Here is a helpful tip.
 
 
 def test_admonition_transformation_warning(preprocessor):
-    cell = nbf.new_markdown_cell("""***WARNING***
+    cell = nbf.new_markdown_cell("""***💡WARNING***
 Watch out!
 *** ***""")
     cell_out, _ = preprocessor.preprocess_cell(cell, {}, 0)
@@ -42,13 +42,13 @@ def test_no_change_for_code_cell(preprocessor):
 # this may not pass linting
 def test_multiple_admonitions_in_one_cell(preprocessor):
     cell = nbf.new_markdown_cell("""
-***TIP***
+***💡TIP***
 Tip 1
 *** ***
 
 Some text between.
 
-***WARNING***
+***💡WARNING***
 Careful now!
 *** ***
 """)

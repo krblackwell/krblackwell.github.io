@@ -19,7 +19,7 @@ class AdmonitionPreprocessor(Preprocessor):
     def preprocess_cell(self, cell, resources, cell_index):
         if cell.cell_type == 'markdown':
             pattern = re.compile(
-                r"(^\*\*\*(?P<type>\w+)\*\*\*\s*\n)"
+                r"(^\*\*\*💡(?P<type>\w+)\*\*\*\s*\n)"
                 r"(?P<content>.*?)"
                 r"(\n\*\*\*\s+\*\*\*\s*$)",
                 re.MULTILINE | re.DOTALL,

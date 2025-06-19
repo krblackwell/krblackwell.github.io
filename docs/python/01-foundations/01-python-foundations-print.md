@@ -20,7 +20,7 @@ unlisted: False
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to Python lessons](/docs/python) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-print) - [Go to Foundations section](/docs/python/foundations)
 
 # What is print?
 

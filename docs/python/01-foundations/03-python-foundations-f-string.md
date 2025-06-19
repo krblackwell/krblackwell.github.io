@@ -20,7 +20,7 @@ unlisted: False
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to Python lessons](/docs/python) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-f-string) - [Go to Foundations section](/docs/python/foundations)
 
 # What are f-strings?
 
@@ -301,9 +301,9 @@ Note the spaces added. The + won't add space between your strings for you.
 :::
 However, you need to be mindful of the variable types you are gluing together. A string won't join with a number when you use `+` plus.
 
-:::warning
+***WARNING***
 Numbers with the pluses have to be converted to a string with something like `str()`.
-:::
+*** ***
 
 
 ```python
