@@ -5,11 +5,14 @@ echo CONVERT NOTEBOOKS TO MARKDOWN
 
 find ./notebooks -type d -name ".ipynb_checkpoints" -prune -o -type f -name "*.ipynb" -print | while read notebook; do
     python3 ./utils/ipynb_to_markdown_template.py "$notebook"
+    echo $notebook: notebook to markdown return code: $?
 done
 
 echo CHECK FRONT MATTER
 
 grep -r 'MISSING' docs/*
+
+echo grep front matter return code: $?
 
 echo PYTHON LINTING
 
