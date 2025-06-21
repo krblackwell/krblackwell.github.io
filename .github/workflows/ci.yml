@@ -58,14 +58,6 @@ jobs:
       - name: Run unit tests
         run: pytest
 
-      - name: Build jupyter lite page
-        run: |
-          jupyter lite build
-          mv lite static
-
-      - name: Build project
-        run: npm run build
-
       # I want to run this locally and read up on it more before adding it here
       # - name: Link checker (lychee)
        # uses: lycheeverse/lychee-action@v2
