@@ -4,7 +4,7 @@ sidebar_position: 1
 last_update:
     date: 6/15/25
     author: krblackwell
-description: Introductory Python - What is a notebook?
+description: Learn coding! Introductory Python - What is a notebook?
 tags: ['python', 'setup']
 draft: False
 unlisted: False
