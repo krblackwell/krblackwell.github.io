@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-06-15T20:45:37.009286Z",
+      "created": "2025-06-21T14:15:41.454809Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-06-15T20:45:37.009286Z",
+      "last_modified": "2025-06-21T14:15:41.454809Z",
       "mimetype": null,
       "name": "01-foundations",
       "path": "python/01-foundations",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-06-15T20:45:37.007330Z",
+  "created": "2025-06-21T14:15:41.453573Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-06-15T20:45:37.007330Z",
+  "last_modified": "2025-06-21T14:15:41.453573Z",
   "mimetype": null,
   "name": "python",
   "path": "python",
