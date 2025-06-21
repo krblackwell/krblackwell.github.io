@@ -11,42 +11,43 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Visit the Lab!',
+    Svg: (require('@site/static/img/lab.svg').default),
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p><a href="/lite/lab/index.html?path=welcome.md">Start lessons in interactive notebooks. You can add code of your own to try out what you learn as you go.</a></p>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Jump in!',
+    Svg: (require('@site/static/img/foundations.svg').default),
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <p><a href="/docs/python/foundations">(Start lessons in interactive notebooks. You can add code of your own to try out what you learn as you go.</a></p>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Blog',
+    Svg: (require('@site/static/img/blog.svg').default),
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p><a href="/blog">(Blog for parents, teachers, and guardians. This is included to help you support your learners and know a little more about why coding is helpful for them.</a></p>
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, Img, description }: FeatureItem & { Img?: string }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {Svg ? (
+          <Svg className={styles.featureSvg} />
+        ) : Img ? (
+          <img src={Img} className={styles.featureSvg} alt={title} />
+        ) : null}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

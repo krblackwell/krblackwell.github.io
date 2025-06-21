@@ -6,3 +6,5 @@
 "striiiiiiiiiiiiiiing"
 "TAAG"
 "Hoda"
+"ipynb"
+"Pydiode"

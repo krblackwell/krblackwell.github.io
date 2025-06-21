@@ -10,6 +10,18 @@ draft: False
 unlisted: False
 ---
 
+
+
+<!-- markdownlint-disable MD033 MD041 -->
+<a href="/lite/lab/index.html?path=python/01-foundations/02-python-foundations-variables.ipynb" target="_blank">
+  <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
+</a>
+<!-- markdownlint-enable MD033 MD041 -->
+
+
+<!-- markdownlint-disable-next-line MD041 -->
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-variables) - [Go to Foundations section](/docs/python/foundations)
+
 # What are variables?
 
 When you code, you'll always be using something called a `variable`. A variable is like a container that holds information. It helps you to do a few things:

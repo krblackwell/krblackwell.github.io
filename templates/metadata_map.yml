@@ -28,3 +28,13 @@ notebooks:
     tags: [python]
     draft: false
     unlisted: false
+
+  04-python-foundations-story-project.ipynb:
+    sidebar_label: story project v1
+    sidebar_position: 4
+    last_update_date: 6/20/25
+    last_update_author: krblackwell
+    description: Silly Story Project with Python for Absolute Beginners
+    tags: [python, project]
+    draft: false
+    unlisted: false

@@ -7,8 +7,8 @@ from pathlib import Path
 
 notebook_path = sys.argv[1]
 input_path = Path(notebook_path)
-
-output_path = Path("docs") / input_path.relative_to("notebooks")
+relative_path = input_path.relative_to("notebooks")
+output_path = Path("docs") / relative_path
 output_path = output_path.with_suffix(".md")
 
 metadata_map_path = './templates/metadata_map.yml'
@@ -20,6 +20,7 @@ with open(metadata_map_path) as f:
 
 notebook_name = notebook_path.split('/')[-1]
 metadata = metadata_map['notebooks'].get(notebook_name, {})
+metadata['relative_path'] = relative_path
 nb['metadata'].update(metadata)
 
 exporter = MarkdownExporter(

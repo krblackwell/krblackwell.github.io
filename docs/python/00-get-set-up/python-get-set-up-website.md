@@ -4,7 +4,7 @@ sidebar_position: 1
 last_update:
     date: 6/15/25
     author: krblackwell
-description: How to use this website.
+description: Learn coding! How to use this website to learn Python.
 tags: ['python']
 draft: False
 unlisted: False

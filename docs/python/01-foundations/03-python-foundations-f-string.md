@@ -10,6 +10,18 @@ draft: False
 unlisted: False
 ---
 
+
+
+<!-- markdownlint-disable MD033 MD041 -->
+<a href="/lite/lab/index.html?path=python/01-foundations/03-python-foundations-f-string.ipynb" target="_blank">
+  <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
+</a>
+<!-- markdownlint-enable MD033 MD041 -->
+
+
+<!-- markdownlint-disable-next-line MD041 -->
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-f-string) - [Go to Foundations section](/docs/python/foundations)
+
 # What are f-strings?
 
 Now that you know how to use `print()` and `variables`, we can work with `f-strings`! This is a way that some people find easier to write long blocks of text that have variables in the middle.
@@ -289,9 +301,9 @@ Note the spaces added. The + won't add space between your strings for you.
 :::
 However, you need to be mindful of the variable types you are gluing together. A string won't join with a number when you use `+` plus.
 
-:::warning
+***WARNING***
 Numbers with the pluses have to be converted to a string with something like `str()`.
-:::
+*** ***
 
 
 ```python

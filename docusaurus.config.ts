@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Learn Python, Make Projects',
-  tagline: 'Have fun learning to code!',
+  title: 'Learn to Code Python for Free',
+  tagline: 'Learn Python, Make Projects. Have fun learning to code! Free without logins.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -42,22 +42,14 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+          showLastUpdateTime: true
+          },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -78,12 +70,11 @@ const config: Config = {
       textColor: '#091E42',
       isCloseable: false,
     },
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Site Logo with letters KB',
         src: 'img/logo.svg',
       },
       items: [
@@ -95,9 +86,10 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/krblackwell/krblackwell.github.io',
           position: 'right',
+          className: 'navbar-github-icon',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
@@ -105,28 +97,27 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Python Lessons',
           items: [
             {
-              label: 'Python',
-              to: '/docs/python',
+              label: 'Python Foundations',
+              to: '/docs/python/foundations',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Site Links',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              html: '<a href="/lite/lab/index.html?path=welcome.md">The Lab</a>',
+             },
+            {
+              label: 'Get Started with Python',
+              href: '/docs/python/get-set-up/python-get-set-up-website',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Jump in! Python Foundations',
+              href: '/docs/python/foundations',
             },
           ],
         },
@@ -134,12 +125,12 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Blog for Parents and Teachers',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/krblackwell/krblackwell.github.io',
             },
           ],
         },
