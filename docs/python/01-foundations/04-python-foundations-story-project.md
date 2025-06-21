@@ -267,7 +267,7 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 Try making your own silly story, or fill in one with a friend!
 
 :::tip
-[Open a new blank notebook in the Lab](/lite/lab/index.html?path=My_Own_Silly_Storyv1.ipynb) to test if you can remember how to do this on your own!
+[Open a new blank notebook in the Lab](/lite/lab) to test if you can remember how to do this on your own! To open a new notebook from the link, click on the tile that says "Py" or "Python."
 :::
 
 ## Conclusion
