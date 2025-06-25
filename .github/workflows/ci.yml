@@ -1,7 +1,6 @@
 name: CI Pipeline
 
 on:
-  push:
   pull_request:
   workflow_dispatch:
 
@@ -25,6 +24,9 @@ jobs:
 
       - name: Python linting (flake8) - see config
         run: flake8
+
+      - name: Notebook Python linting (flake8)
+        run: nbqa flake8 ./notebooks
 
       - name: Markdown linting - see config
         uses: DavidAnson/markdownlint-cli2-action@v20
