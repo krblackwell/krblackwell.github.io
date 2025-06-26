@@ -8,3 +8,6 @@
 "Hoda"
 "ipynb"
 "Pydiode"
+"strikethrough"
+"sublist"
+"salut"

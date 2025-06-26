@@ -68,7 +68,7 @@ Some AI chat apps provide their responses in Markdown format.
 
 ## How do I use Markdown?
 
-<!-- markdownlit-disable-next-line MD033 -->
+<!-- markdownlint-disable-next-line MD033 -->
 You can use it in <a href="/lite/lab/index.html?path=welcome.md">the Lab</a>. Open a Markdown file, or a new notebook.
 
 ### Open a Markdown file from the launcher

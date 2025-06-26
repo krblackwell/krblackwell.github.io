@@ -52,22 +52,22 @@ _italics_
 There are different things you can do to mark up text in Markdown. I even show you a couple of non-standard no-nos.
 
 The above looks like this:
-
+<!-- markdownlint-disable-next-line MD036 -->
 **bold**
-
+<!-- markdownlint-disable-next-line MD036 -->
 _italics_
 
 ~~strikethrough~~
-
+<!-- markdownlint-disable-next-line MD049 -->
 ***bold italic***
 <!-- markdownlint-disable-next-line MD033 -->
 <u>underline</u>
 
-The `***bold italic***` might not work everywhere you use Markdown.
+The `***bold italic***` might not work everywhere you use Markdown, and is not necessarily considered best practice, but we can bend the rules a little sometimes.
 
 ## New lines
 
-You might notice there are spaces between lines in the code I'm showing you. I could also use a `\` to mark the end of a line. 
+You might notice there are spaces between lines in the code I'm showing you. I could also use a `\` to mark the end of a line.
 
 Look at the difference between this:
 
@@ -98,14 +98,10 @@ You can also have sub-items in your lists by adding two spaces before something 
 ```markdown
 1. hey
 1. hi
-  1. salut
-  1. salve
 1. hello
+```
 
-1. number list
-  - bullet sublist
-1. number list item
-
+```markdown
 - item
 - thing
 - what
@@ -117,13 +113,7 @@ In most "flavors" of markdown, you can write all the numbers in a list as 1. The
 
 1. hey
 1. hi
-  1. salut
-  1. salve
 1. hello
-
-1. number list
-  - bullet sublist
-1. number list item
 
 - item
 - thing
