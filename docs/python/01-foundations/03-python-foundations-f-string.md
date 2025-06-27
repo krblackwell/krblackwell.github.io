@@ -5,7 +5,7 @@ last_update:
     date: 6/14/25
     author: krblackwell
 description: Introductory Python - What are f-strings?
-tags: ['python', 'f-strings']
+tags: ['python']
 draft: False
 unlisted: False
 ---

@@ -26,13 +26,13 @@ It comes with practice and time.
 
 It's ok if you understand a lesson, but have to look up the `syntax` or way to write code. I've used a number of programming languages in my career, and I don't remember every piece of syntax about all of them all the time.
 
-### Is it worth it learning to code? AI is taking all the jobs.
+### Is it worth it learning to code? AI is taking all the jobs
 
 I think understanding coding, or at least how code shapes our lives, is valuable. You don't have to be a programmer, developer, engineer, whatever in order to use coding to make your life easier. You might want to make yourself applications or games.
 
 Also if you just like it and find it interesting, don't let anyone stop you from learning it!
 
-### Coding is so hard.
+### Coding is so hard
 
 It can be really hard! That's ok. It's normal and SO common to feel frustrated. Sometimes it takes a bit of time for things to "click." Remember to write code yourself and play around with it. Use projects and tutorials, but try to change them to make them your own. It engages your brain in a different way.
 
