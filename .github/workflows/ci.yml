@@ -60,9 +60,3 @@ jobs:
       - name: Run unit tests
         run: pytest
 
-      # I want to run this locally and read up on it more before adding it here
-      # - name: Link checker (lychee)
-       # uses: lycheeverse/lychee-action@v2
-       # with:
-       #   args: --verbose
-

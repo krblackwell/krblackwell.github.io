@@ -32,7 +32,8 @@ Coding helps you think differently. As a coder myself, I’ll share my knowledge
 
 I don’t want you to just **learn code**. I want you to learn to **build good programs**.
 
-### 🧪 Live Coding Notebooks in [The Lab](/lite/lab/index.html?path=welcome.md)
+<!-- markdownlint-disable-next-line MD033 -->
+### 🧪 Live Coding Notebooks in <a href="/lite/lab/index.html?path=welcome.ipynb">The Lab</a>
 
 Lessons are created as [Jupyter notebooks](https://jupyter.org/) — interactive coding documents.
 

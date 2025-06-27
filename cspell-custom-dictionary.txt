@@ -11,3 +11,5 @@
 "strikethrough"
 "sublist"
 "salut"
+"COPPA"
+"sandboxed"

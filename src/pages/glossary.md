@@ -110,6 +110,16 @@ unlisted: False
   message = "This is a string"
   ```
 
+- **syntax**\
+  The rules for writing code so the computer can understand. It's like writing in complete sentences to be very clear about what you're saying.\
+  Any Python code you write has to be in the right syntax so Python knows what you want.
+  
+  ```python
+  print("Hello World!")
+  ```
+  
+  You have to remember all the parentheses on both sides, quotes on both sides, and spell `print` the right way.
+
 - **user**\
   A person interacting with the software or code.
 

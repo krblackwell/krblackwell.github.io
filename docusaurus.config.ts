@@ -72,7 +72,7 @@ const config: Config = {
     },
     image: 'img/social-card.jpg',
     navbar: {
-      title: 'Home',
+      title: 'Learn Coding for Free',
       logo: {
         alt: 'Site Logo with letters KB',
         src: 'img/logo.svg',
@@ -84,13 +84,7 @@ const config: Config = {
           position: 'left',
           label: 'Python',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/krblackwell/krblackwell.github.io',
-          position: 'right',
-          className: 'navbar-github-icon',
-          'aria-label': 'GitHub repository',
-        },
+        {to: '/blog', label: 'Parents', position: 'right'},
       ],
     },
     footer: {
@@ -109,7 +103,7 @@ const config: Config = {
           title: 'Site Links',
           items: [
             {
-              html: '<a href="/lite/lab/index.html?path=welcome.md">The Lab</a>',
+              html: '<a href="/lite/lab/index.html?path=welcome.ipynb">The Lab</a>',
              },
             {
               label: 'Get Started with Python',
@@ -129,13 +123,17 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
+              label: 'GitHub Repo for this site',
               href: 'https://github.com/krblackwell/krblackwell.github.io',
             },
+            {
+              label: 'Privacy Policy',
+              to: '/privacy',
+           },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Katie Blackwell. Built with Docusaurus. Hosted on GitHub Pages.`,
     },
     prism: {
       theme: prismThemes.github,
