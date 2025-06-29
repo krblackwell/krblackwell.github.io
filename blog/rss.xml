@@ -40,12 +40,13 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-get-started">How to Get Started<a href="https://krblackwell.github.io/blog/welcome/#how-to-get-started" class="hash-link" aria-label="Direct link to How to Get Started" title="Direct link to How to Get Started">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="browse-lessons">Browse Lessons<a href="https://krblackwell.github.io/blog/welcome/#browse-lessons" class="hash-link" aria-label="Direct link to Browse Lessons" title="Direct link to Browse Lessons">​</a></h3>
 <p>Click the Python link in the menu up top to jump into your first lesson. If you don't see anything, you'll need to click the hamburger menu, which looks like 3 lines: ☰</p>
-<p><a href="https://krblackwell.github.io/docs/python/foundations/python-foundations-print/">Or just click here to go to the first lesson on <code>print()</code></a></p>
+<p><a href="https://krblackwell.github.io/docs/python/foundations/print/">Or just click here to go to the first lesson on <code>print()</code></a></p>
 <p>Each lesson includes a link to an <strong>interactive notebook</strong> at the top. It is currently a yellow button that says "Try Lite Now." Run code directly and test your understanding by writing some yourself.</p>
 <p>There are navigation links at the top of the notebooks to return to the lesson page.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="explore-the-glossary">Explore the Glossary<a href="https://krblackwell.github.io/blog/welcome/#explore-the-glossary" class="hash-link" aria-label="Direct link to Explore the Glossary" title="Direct link to Explore the Glossary">​</a></h3>
 <p>We’ve got a built-in <strong>dictionary</strong> for coding terms. Refer to it anytime you're unsure about a word or concept.</p>]]></content:encoded>
             <category>Introductions</category>
+            <category>Python</category>
         </item>
     </channel>
 </rss>

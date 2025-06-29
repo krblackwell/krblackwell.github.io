@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-06-29T23:34:29.857310Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-06-28T00:39:12.559920Z",
+      "mimetype": null,
+      "name": "story-project-v1.ipynb",
+      "path": "python/01-foundations/projects/story-project-v1.ipynb",
+      "size": 11171,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-06-29T23:34:29.857233Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-06-29T23:34:29.857233Z",
+  "mimetype": null,
+  "name": "projects",
+  "path": "python/01-foundations/projects",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
