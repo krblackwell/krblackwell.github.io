@@ -35,7 +35,6 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -70,6 +69,11 @@ const config: Config = {
       textColor: '#091E42',
       isCloseable: false,
     },
+    docs: {
+      sidebar: {
+        hideable: true
+      },
+    },
     image: 'img/social-card.jpg',
     navbar: {
       title: 'Learn Coding for Free',
@@ -84,6 +88,13 @@ const config: Config = {
           position: 'left',
           label: 'Python',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'markdownSidebar',
+          position: 'left',
+          label: 'Markdown',
+        },
+        {to: '/glossary', label: 'Glossary', position: 'right'},
         {to: '/blog', label: 'Parents', position: 'right'},
       ],
     },
