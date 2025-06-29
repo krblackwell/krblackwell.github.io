@@ -10,6 +10,14 @@ unlisted: False
 
 # 📘 Glossary for words and definitions used on this website
 
+- **array**\
+  In some programming languages, you have multiple items in one variable. In Python, this is called a `list`. In other languages, you might call it an `array`. Some programming languages allow the elements of an array to be different data types (maybe strings and integers). Other languages require each element in an array to be the exact same type. Python allows mixed data types in its lists.
+  
+  ```python
+  fruits_list = ['kiwi', 'orange', 'durian', 'mango']
+  print(type(fruits_list))
+  ```
+
 - **best practice** \
   A recommended way of doing something that’s widely accepted as clear, effective, and efficient. It helps you avoid problems later on.
   
@@ -61,6 +69,15 @@ unlisted: False
   num_as_str = str(42)  # Converts integer to string
   ```
 
+- **data**\
+  Think of data as information that a computer can process. You can usually read it too. If you see a string or number, you understand what it means at least a little bit.
+
+- **data structure**\
+  Data structures are a fundamental concept in programming. Data structures hold information in special formats. Strings, integers, lists, and dictionaries are data structures. There are even other types beyond that!
+
+- **data type**\
+  Data types are what category of information **format** you're dealing with. Think of strings, integers, lists, dictionaries, decimals, and so on as types of formats that can hold your information.
+  
 - **documentation**\
   Documentation is a way to write down and to share information about how code behaves and how to use it. [The Python documentation](https://docs.python.org/3/) is an example of this.
 

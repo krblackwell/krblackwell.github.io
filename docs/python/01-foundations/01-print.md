@@ -2,7 +2,7 @@
 sidebar_label: prints
 sidebar_position: 1
 last_update:
-    date: 6/14/25
+    date: 6/28/25
     author: krblackwell
 description: Introductory Python - What are prints?
 tags: ['python', 'foundations', 'print']
@@ -55,6 +55,45 @@ print("Hello World!")
 <!-- markdownlint-enable MD033 MD009 -->
 
 We can print a lot of things, and this is very useful to understand what's happening in your program.
+
+Before we keep talking about print, I want to mention that code cells in a notebook will "print" without `print()`.
+
+
+```python
+"The cell will show this" + " like it's printed"
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    "The cell will show this like it's printed"
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+
+```python
+x = 2
+x + 1
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    3
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
 
 Let me show you some more print statements for fun!
 

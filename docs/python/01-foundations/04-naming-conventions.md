@@ -5,7 +5,7 @@ last_update:
     date: 6/28/25
     author: krblackwell
 description: How to name variables in Python.
-tags: ['python', 'naming']
+tags: ['python', 'foundations', 'naming']
 draft: False
 unlisted: False
 ---
@@ -28,7 +28,7 @@ unlisted: False
 
 - ❌ No nos
 - ℹ️ Things to know
-- Good names
+- ✅ Good names
 
 ## Learning Objectives
 
@@ -134,8 +134,8 @@ In the ["Silly Stories" project](/docs/python/foundations/projects/silly-stories
 If you make a game, you might want to know `current_player` rather than player1 vs player2. Game logic would be based on whose turn it is, a current_player, rather than player1. `current_player` is descriptive, starts with a letter, and is snake case!
 
 Maybe you have something that gives you a True or False (like a yes or no) if you check for a winner: `check_winner`.
-
-Try out some good names by creating new cells in <a href="/lite/lab/index.html?path=notebooks/python/foundations/04-naming-conventions.ipynb">the Lab</a>
+<!-- markdownlint-disable-next-line MD033 -->
+Try out some good names by creating new cells in <a href="/lite/lab/index.html?path=python/01-foundations/04-naming-conventions.ipynb">the Lab</a>
 
 
 ```python

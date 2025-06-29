@@ -5,7 +5,7 @@ last_update:
     date: 6/20/25
     author: krblackwell
 description: Silly Story Project with Python for Absolute Beginners
-tags: ['python', 'project', 'silly-stories', 'print', 'variables', 'f-strings']
+tags: ['python', 'project', 'silly-stories', 'foundations', 'print', 'variables', 'f-strings']
 draft: False
 unlisted: False
 ---

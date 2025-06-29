@@ -69,13 +69,43 @@ notebooks:
     draft: false
     unlisted: false
 
-  06-lists-and-strings.ipynb:
-    sidebar_label: lists and strings
+  06-documentation.ipynb:
+    sidebar_label: documentation
     sidebar_position: 6
-    last_update_date: 6/28/25
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to read documentation.
+    tags: [python, foundations, documentation]
+    draft: false
+    unlisted: false
+
+  07-lists-and-strings.ipynb:
+    sidebar_label: lists and strings
+    sidebar_position: 7
+    last_update_date: 6/29/25
     last_update_author: krblackwell
     description: How to use lists and more string methods in Python.
     tags: [python, foundations, lists, strings, methods]
+    draft: false
+    unlisted: false
+
+  08-lists.ipynb:
+    sidebar_label: lists
+    sidebar_position: 8
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to use list methods.
+    tags: [python, foundations, lists]
+    draft: false
+    unlisted: false
+
+  09-dictionaries.ipynb:
+    sidebar_label: dictionaries
+    sidebar_position: 9
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to use dictionaries in Python.
+    tags: [python, foundations, dictionaries]
     draft: false
     unlisted: false
 
