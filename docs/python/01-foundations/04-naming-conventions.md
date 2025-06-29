@@ -129,7 +129,7 @@ We talked about a lot of things NOT to do, so here are examples of good names. W
 
 ### ✅ Descriptive, ✅ Snake case, ✅ Starts with a letter
 
-In the ["Silly Stories" project](/docs/python/foundations/projects/silly-stories-v1), variable names like `noun1` are descriptive enough. You know you need a noun, but we don't want to give away anything about the story. It's ok to have a number without the underscore.
+In the ["Silly Stories" project](/docs/python/foundations/projects/story-project-v1), variable names like `noun1` are descriptive enough. You know you need a noun, but we don't want to give away anything about the story. It's ok to have a number without the underscore.
 
 If you make a game, you might want to know `current_player` rather than player1 vs player2. Game logic would be based on whose turn it is, a current_player, rather than player1. `current_player` is descriptive, starts with a letter, and is snake case!
 
