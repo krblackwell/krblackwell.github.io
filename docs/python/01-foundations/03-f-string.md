@@ -5,7 +5,7 @@ last_update:
     date: 6/14/25
     author: krblackwell
 description: Introductory Python - What are f-strings?
-tags: ['python']
+tags: ['python', 'foundations', 'f-strings']
 draft: False
 unlisted: False
 ---
@@ -13,14 +13,14 @@ unlisted: False
 
 
 <!-- markdownlint-disable MD033 MD041 -->
-<a href="/lite/lab/index.html?path=python/01-foundations/03-python-foundations-f-string.ipynb" target="_blank">
+<a href="/lite/lab/index.html?path=python/01-foundations/03-f-string.ipynb" target="_blank">
   <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
 </a>
 <!-- markdownlint-enable MD033 MD041 -->
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-f-string) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/f-string) - [Go to Foundations section](/docs/python/foundations)
 
 # What are f-strings?
 

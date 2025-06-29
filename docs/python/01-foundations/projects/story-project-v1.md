@@ -1,11 +1,11 @@
 ---
 sidebar_label: story project v1
-sidebar_position: 4
+sidebar_position: 1
 last_update:
     date: 6/20/25
     author: krblackwell
 description: Silly Story Project with Python for Absolute Beginners
-tags: ['python', 'project']
+tags: ['python', 'project', 'silly-stories', 'print', 'variables', 'f-strings']
 draft: False
 unlisted: False
 ---
@@ -13,14 +13,14 @@ unlisted: False
 
 
 <!-- markdownlint-disable MD033 MD041 -->
-<a href="/lite/lab/index.html?path=python/01-foundations/04-python-foundations-story-project.ipynb" target="_blank">
+<a href="/lite/lab/index.html?path=python/01-foundations/projects/story-project-v1.ipynb" target="_blank">
   <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
 </a>
 <!-- markdownlint-enable MD033 MD041 -->
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-story-project) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/projects/story-project-v1) - [Go to Foundations section](/docs/python/foundations)
 
 # Project - Silly Stories v1
 

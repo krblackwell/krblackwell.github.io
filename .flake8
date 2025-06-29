@@ -4,5 +4,5 @@ exclude =
     __pycache__,
     .venv
 per-file-ignores =
-    notebooks/python/01-foundations/01-python-foundations-print*: W605,
-    notebooks/python/01-foundations/03-python-foundations-f-string*: F541
+    notebooks/python/01-foundations/01-print*: W605,
+    notebooks/python/01-foundations/03-f-string*: F541

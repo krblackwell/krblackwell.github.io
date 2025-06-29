@@ -25,6 +25,19 @@ unlisted: False
   age = int("12")  # casts a string to an integer
   ```
 
+- **chaining methods**\
+  Using dot notation and adding methods to other methods.
+  
+  ```python
+  "  a string example".lstrip().capitalize()
+  ```
+  `.lstrip()` returns something that is then returned by capitalize().\
+  `.lstrip()` returns "a string example" with no extra whitespace at the start.\
+  `.capitalize()` returns "A string example" with that and the first letter set to uppercase.
+
+- **class**\
+  A class is a definition of an `object`. Think of the `class` as the blueprint, and the `object` as the thing you actually create and use from the class.
+
 - **code standards**\
   Rules or guidelines for writing clean, consistent code (often project- or language-specific).
 
@@ -48,12 +61,29 @@ unlisted: False
   num_as_str = str(42)  # Converts integer to string
   ```
 
+- **documentation**\
+  Documentation is a way to write down and to share information about how code behaves and how to use it. [The Python documentation](https://docs.python.org/3/) is an example of this.
+
+- **dunder**\
+  Double underscores __ in Python are called dunders. There are things called "dunder methods" that exist in classes.
+
 - **f-string**\
   A way to format strings in Python using curly braces to insert variables.
 
   ```python
   name = "Toby"
   greeting = f"Hello, {name}!"
+  ```
+
+- **function**\
+  A way to reuse code to do a specific task. It's not attached to an object. It's a block of code that can take in arguments and may or may not return something.
+  
+  The following example is something I create here and it's not defined within a class. 
+  ```python
+  def add(x, y):
+    return x + y
+  
+  add(1, 3)
   ```
 
 - **integer**\
@@ -78,6 +108,32 @@ unlisted: False
   **This is bold text in markdown**
   ```
 
+- **method**\
+  Methods are like functions, but they are associated with an object. If I have a string "like this," I have methods associated with strings like `.toupper()` and `.replace()` that I can use.
+  If I have a number, I have methods like `.isinteger()`.
+  For lists, `.append()`. `.get()` in a dictionary, and so on.
+  
+  ```python
+  fruits_dictionary = {
+    1: "apple",
+    2: "banana",
+    3: "cherry"
+  }
+  
+  fruits_dictionary.get(2)
+  ````
+
+# Use .get() to retrieve the value for key 2
+value = my_dict.get(2)
+
+- **naming conventions**\
+  A way of labeling or calling things so they follow a standard. These are rules that help people give descriptive names that don't cause a problem for coding. Some rules mean your program won't run, but some are guidelines and your program will still run.
+  
+  ```python
+  # &error = "this causes an error"
+  zombie_trap_pit = "descriptive and allowed!"
+  ``` 
+
 - **nested**\
   When one structure is placed inside another, like a list within a list or an `if` statement inside a loop.
 
@@ -86,6 +142,19 @@ unlisted: False
       if i % 2 == 0:
           print(f"{i} is even")
   ```
+
+- **object**\
+  Everything is an object in Python. Objects are a tricky concept to wrap your head around, but the more you work with them, the more they will start to make sense.
+  
+  Objects have some things associated with them:
+  
+  - They are part of a class.
+  - They hold data.
+  - They have methods.
+
+  "a string like this" is an object of the class `str` in Python. `str` is something that's included with Python. A string in Python holds the data, in this case, "a string like this" is the data. The `str` class also has methods, like `.upper()`, `.replace()`, or `.strip()` that are defined in that class.
+
+  [The documentation can show this in a different way](https://docs.python.org/3/library/stdtypes.html#string-methods). But if this doesn't make sense to you, that's ok. Some of it might go over your head if you're not at the point of reading documentation yet.
 
 - **pep8**\
   Python’s official style guide that outlines how to write readable and consistent Python code.
@@ -103,12 +172,18 @@ unlisted: False
   print("Hello, world!")
   ```
 
+- **reserved words**\
+  Words that have special meaning, and shouldn't be used as variable names, like `break` `class` `except` `finally` `True`.
+
 - **string**\
   A sequence of characters, usually text (e.g. `"hello"` or `'123'`).
 
   ```python
   message = "This is a string"
   ```
+
+- **snake case**\
+  Snake case means you add underscores between words in a name, like `my_variable`, `site_dictionary`, or `cat_tree_five`.
 
 - **syntax**\
   The rules for writing code so the computer can understand. It's like writing in complete sentences to be very clear about what you're saying.\

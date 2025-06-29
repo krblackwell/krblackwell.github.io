@@ -2,7 +2,7 @@
 slug: welcome
 title: Learn to Code for Free
 authors: krblackwell
-tags: [introductions]
+tags: [introductions, python]
 ---
 
 This blog is here for teachers, parents, and guardians who want to support their learners. This site makes coding easy to learn by removing common roadblocks. Everything is in the browser, no logins, and it's free. Learn Python now!
@@ -53,7 +53,7 @@ Check out the blog for **tips, ideas**, and **inspiration** to support young cod
 
 Click the Python link in the menu up top to jump into your first lesson. If you don't see anything, you'll need to click the hamburger menu, which looks like 3 lines: ☰
 
-[Or just click here to go to the first lesson on `print()`](/docs/python/foundations/python-foundations-print)
+[Or just click here to go to the first lesson on `print()`](/docs/python/foundations/print)
 
 Each lesson includes a link to an **interactive notebook** at the top. It is currently a yellow button that says "Try Lite Now." Run code directly and test your understanding by writing some yourself.
 
