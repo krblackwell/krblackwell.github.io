@@ -26,3 +26,6 @@
 "titlecase"
 "splitlines"
 "BZED"
+"startswith"
+"NBVAL"
+"yeet"
