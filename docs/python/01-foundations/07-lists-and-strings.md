@@ -97,10 +97,10 @@ out_of_school_programs_list_of_lists
 
 
 
-    [['Soccer Practice', 'AV Club', 'Homework Help'],
-     ['Chess Club', 'Track Practice', 'Art Studio'],
-     ['Debate Team', 'Drama Club', 'Coding Workshop'],
-     ['Science Club', 'Basketball Practice', 'Yearbook'],
+    [['Soccer Practice', 'AV Club', 'Homework Help'],  
+     ['Chess Club', 'Track Practice', 'Art Studio'],  
+     ['Debate Team', 'Drama Club', 'Coding Workshop'],  
+     ['Science Club', 'Basketball Practice', 'Yearbook'],  
      ['Film Club', 'School Newspaper', 'Open Gym']]
 
 
@@ -147,8 +147,8 @@ shopping_cart
 
 
 
-    [['Book', 2, 19.99, True],
-     ['Headphones', 1, 39.99, False],
+    [['Book', 2, 19.99, True],  
+     ['Headphones', 1, 39.99, False],  
      ['Pen', 3, 2.49, True]]
 
 
@@ -515,18 +515,18 @@ example_split
 
 
 
-    ['Extra',
-     'spaces',
-     'at',
-     'the',
-     'start,',
-     'in',
-     'the',
-     'middle',
-     ',',
-     'and',
-     'at',
-     'the',
+    ['Extra',  
+     'spaces',  
+     'at',  
+     'the',  
+     'start,',  
+     'in',  
+     'the',  
+     'middle',  
+     ',',  
+     'and',  
+     'at',  
+     'the',  
      'end.']
 
 

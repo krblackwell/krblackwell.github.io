@@ -61,12 +61,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -91,12 +91,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -124,12 +124,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -152,12 +152,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -181,12 +181,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -217,12 +217,12 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a/an yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a/an yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -253,12 +253,12 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Cookie is a/an cat who lives in a smelly lake. Every day,
-    Cookie wakes up with a/an egg, and eats his breakfast of boombox.
-    He goes to the volcano.
-    As he passes his snake friends, they exclaim, "AH!"
-    
+      
+    Cookie is a/an cat who lives in a smelly lake. Every day,  
+    Cookie wakes up with a/an egg, and eats his breakfast of boombox.  
+    He goes to the volcano.  
+    As he passes his snake friends, they exclaim, "AH!"  
+      
 
 
 </div><br/>

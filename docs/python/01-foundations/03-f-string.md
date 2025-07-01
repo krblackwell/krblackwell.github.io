@@ -38,7 +38,7 @@ print(f"This is {type_of_thing}")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    This is an f-string
+    This is an f-string  
 
 
 </div><br/>
@@ -69,7 +69,7 @@ print(f"Hello, {name}!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello, Ella!
+    Hello, Ella!  
 
 
 </div><br/>
@@ -86,7 +86,7 @@ print(f"{exclamation}! Another {word} already?")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Wait! Another example already?
+    Wait! Another example already?  
 
 
 </div><br/>
@@ -107,7 +107,7 @@ print(f'I can use single {repeat_word}')
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I can use single quotes
+    I can use single quotes  
 
 
 </div><br/>
@@ -121,7 +121,7 @@ print(f"blah blah no variable - Hey wait, this isn't best practice!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    blah blah no variable - Hey wait, this isn't best practice!
+    blah blah no variable - Hey wait, this isn't best practice!  
 
 
 </div><br/>
@@ -147,7 +147,7 @@ print(f"I am {age} years old.")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I am 11 years old.
+    I am 11 years old.  
 
 
 </div><br/>
@@ -163,7 +163,7 @@ print(f"{a} plus {b} equals {a + b}")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    5 plus 7 equals 12
+    5 plus 7 equals 12  
 
 
 </div><br/>
@@ -184,7 +184,7 @@ print(f"Great job, {name}! You scored {score} points!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Great job, Ava! You scored 95 points!
+    Great job, Ava! You scored 95 points!  
 
 
 </div><br/>
@@ -200,7 +200,7 @@ print(f"Player {player} scored {score} points!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Player Max scored 42 points!
+    Player Max scored 42 points!  
 
 
 </div><br/>
@@ -215,7 +215,7 @@ print(f"🎉 Congrats! You’ve reached level {level}! Keep going!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    🎉 Congrats! You’ve reached level 5! Keep going!
+    🎉 Congrats! You’ve reached level 5! Keep going!  
 
 
 </div><br/>
@@ -230,7 +230,7 @@ print(f" Welcome, {player_name}! Get ready for an amazing adventure!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-     Welcome, Hoda! Get ready for an amazing adventure!
+     Welcome, Hoda! Get ready for an amazing adventure!  
 
 
 </div><br/>
@@ -246,7 +246,7 @@ print(f"⚠️ Watch out, {name}! You only have {lives} lives left!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    ⚠️ Watch out, Vik! You only have 2 lives left!
+    ⚠️ Watch out, Vik! You only have 2 lives left!  
 
 
 </div><br/>
@@ -273,7 +273,7 @@ print("I have a string here. " + sentence2 + "And another string")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I have a string here. A variable string to insert. And another string
+    I have a string here. A variable string to insert. And another string  
 
 
 </div><br/>
@@ -290,7 +290,7 @@ print(big_sentence)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I have a string here. A variable string to insert. And another string
+    I have a string here. A variable string to insert. And another string  
 
 
 </div><br/>
@@ -315,7 +315,7 @@ print("Number is: " + str(number))
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Number is: 5
+    Number is: 5  
 
 
 </div><br/>
@@ -341,7 +341,7 @@ print("Variable =", variable)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Variable = 5
+    Variable = 5  
 
 
 </div><br/>
@@ -359,7 +359,7 @@ print("Here's another example.",
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Here's another example. Multiple lines can go like this. Commas are separating the strings, but they print on a single line.
+    Here's another example. Multiple lines can go like this. Commas are separating the strings, but they print on a single line.  
 
 
 </div><br/>
@@ -377,7 +377,7 @@ print("Here's another example. "
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Here's another example. With plus and multiple lines
+    Here's another example. With plus and multiple lines  
 
 
 </div><br/>
@@ -397,7 +397,7 @@ print("Here's another example. "
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Here's another example. With plus and multiple lines
+    Here's another example. With plus and multiple lines  
 
 
 </div><br/>
@@ -415,7 +415,7 @@ print("Here's another example.",
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Here's another example. With commas and multiple lines
+    Here's another example. With commas and multiple lines  
 
 
 </div><br/>
@@ -441,7 +441,7 @@ print(f'I can use single {repeat_word}, but remember how to properly '
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I can use single quotes, but remember how to properly balance your types of quotes around each other.
+    I can use single quotes, but remember how to properly balance your types of quotes around each other.  
 
 
 </div><br/>

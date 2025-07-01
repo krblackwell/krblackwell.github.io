@@ -72,7 +72,7 @@ print("a".islower())
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    True
+    True  
 
 
 </div><br/>
@@ -94,7 +94,7 @@ print(a_is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    True
+    True  
 
 
 </div><br/>
@@ -116,7 +116,7 @@ print(is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    True
+    True  
 
 
 </div><br/>
@@ -141,7 +141,7 @@ print(is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    False
+    False  
 
 
 </div><br/>
@@ -157,7 +157,7 @@ print(is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    False
+    False  
 
 
 </div><br/>
@@ -179,7 +179,7 @@ print(is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    True
+    True  
 
 
 </div><br/>
@@ -195,7 +195,7 @@ print(is_lower)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    True
+    True  
 
 
 </div><br/>

@@ -48,7 +48,7 @@ print("Hello World!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello World!
+    Hello World!  
 
 
 </div><br/>
@@ -117,17 +117,17 @@ Now you do!
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    A multiline string
-    goes over more than one line,
-    and can contain "quoted" stuff,
-    or 'single quoted' stuff,
-    or a word with an apostrophe.
-    You didn't know?
-    Now you do!
-    "That's really great," you say.
-    "I know!" I exclaim.
-    
+      
+    A multiline string  
+    goes over more than one line,  
+    and can contain "quoted" stuff,  
+    or 'single quoted' stuff,  
+    or a word with an apostrophe.  
+    You didn't know?  
+    Now you do!  
+    "That's really great," you say.  
+    "I know!" I exclaim.  
+      
 
 
 </div><br/>
@@ -153,9 +153,9 @@ print("2. Fantasy")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Game Menu
-    1. Sci-Fi
-    2. Fantasy
+    Game Menu  
+    1. Sci-Fi  
+    2. Fantasy  
 
 
 </div><br/>
@@ -173,9 +173,9 @@ print("2. 🧙 Fantasy")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    🎮 Game Menu
-    1. 🚀 Sci-Fi
-    2. 🧙 Fantasy
+    🎮 Game Menu  
+    1. 🚀 Sci-Fi  
+    2. 🧙 Fantasy  
 
 
 </div><br/>
@@ -194,10 +194,10 @@ print("2. 🧙 Fantasy")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    🎮 Game Menu
-    ------------
-    1. 🚀 Sci-Fi
-    2. 🧙 Fantasy
+    🎮 Game Menu  
+    ------------  
+    1. 🚀 Sci-Fi  
+    2. 🧙 Fantasy  
 
 
 </div><br/>
@@ -219,13 +219,13 @@ print("6. ❌ Quit")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    🎮 Game Menu
-    ------------
-    1. 🚀 Sci-Fi
-    2. 🧙 Fantasy
-    3. 🦖 Dinosaur
-    4. 🕵️ Mystery
-    6. ❌ Quit
+    🎮 Game Menu  
+    ------------  
+    1. 🚀 Sci-Fi  
+    2. 🧙 Fantasy  
+    3. 🦖 Dinosaur  
+    4. 🕵️ Mystery  
+    6. ❌ Quit  
 
 
 </div><br/>
@@ -243,7 +243,7 @@ print('I can use single quotes, too!')
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    I can use single quotes, too!
+    I can use single quotes, too!  
 
 
 </div><br/>
@@ -261,7 +261,7 @@ print("This print statement contains an apostrophe. I can't believe it!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    This print statement contains an apostrophe. I can't believe it!
+    This print statement contains an apostrophe. I can't believe it!  
 
 
 </div><br/>
@@ -294,13 +294,13 @@ Don't you see my single quote?
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    This is all nested within triple quotes.
-    But I can nest "double quotes" within the triple quotes
-    Don't you see my single quote?
-    'But this is fine here too'
-    "Keep up with the Jones's" if you want to use quotes
-    
+      
+    This is all nested within triple quotes.  
+    But I can nest "double quotes" within the triple quotes  
+    Don't you see my single quote?  
+    'But this is fine here too'  
+    "Keep up with the Jones's" if you want to use quotes  
+      
 
 
 </div><br/>

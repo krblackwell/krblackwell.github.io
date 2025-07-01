@@ -194,11 +194,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        129998932112448
-        vs
-        129998932111040
-        
+      
+        129998932112448  
+        vs  
+        129998932111040  
+          
 
 
 </div><br/>
@@ -241,11 +241,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        List values:
-        'one': ['Poppy', 'Candy', 'Sudoku']
-        'two': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']
-        
+      
+        List values:  
+        'one': ['Poppy', 'Candy', 'Sudoku']  
+        'two': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']  
+          
 
 
 </div><br/>
@@ -273,11 +273,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        129998932111040
-        vs
-        129998932111040
-        
+      
+        129998932111040  
+        vs  
+        129998932111040  
+          
 
 
 </div><br/>
@@ -317,11 +317,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        List values:
-        'one': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']
-        'two': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']
-        
+      
+        List values:  
+        'one': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']  
+        'two': ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE']  
+          
 
 
 </div><br/>
@@ -339,7 +339,7 @@ print(games_list_one)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy']
+    ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy']  
 
 
 </div><br/>
@@ -357,7 +357,7 @@ print(games_list_two)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']
+    ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']  
 
 
 </div><br/>
@@ -387,11 +387,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        129998932111040
-        vs
-        129998932115328
-        
+      
+        129998932111040  
+        vs  
+        129998932115328  
+          
 
 
 </div><br/>
@@ -431,11 +431,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        List values before doing anything:
-        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']
-        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']
-        
+      
+        List values before doing anything:  
+        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']  
+        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']  
+          
 
 
 </div><br/>
@@ -457,11 +457,11 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        List values after removing the last item from "three":
-        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']
-        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy']
-        
+      
+        List values after removing the last item from "three":  
+        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy', 'Rainbow']  
+        ['Poppy', 'Candy', 'Sudoku', 'Halo', 'RE', 'Dandy']  
+          
 
 
 </div><br/>
@@ -487,7 +487,7 @@ print(numbers_list.append("five"))
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    None
+    None  
 
 
 </div><br/>
@@ -586,10 +586,10 @@ print(
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-        []
-        ['binary', 'string', 'collection', 'set']
-        
+      
+        []  
+        ['binary', 'string', 'collection', 'set']  
+          
 
 
 </div><br/>
@@ -634,16 +634,16 @@ hardware_software_words
 
 
 
-    ['binary',
-     'string',
-     'collection',
-     'set',
-     'bus',
-     'RAM',
-     'cache',
-     'register',
-     'clock',
-     'binary',
+    ['binary',  
+     'string',  
+     'collection',  
+     'set',  
+     'bus',  
+     'RAM',  
+     'cache',  
+     'register',  
+     'clock',  
+     'binary',  
      'kernel']
 
 
@@ -783,17 +783,17 @@ hardware_software_words
 
 
 
-    ['RAM',
-     'binary',
-     'binary',
-     'binary',
-     'bus',
-     'cache',
-     'clock',
-     'collection',
-     'kernel',
-     'register',
-     'set',
+    ['RAM',  
+     'binary',  
+     'binary',  
+     'binary',  
+     'bus',  
+     'cache',  
+     'clock',  
+     'collection',  
+     'kernel',  
+     'register',  
+     'set',  
      'string']
 
 
@@ -818,17 +818,17 @@ hardware_software_words
 
 
 
-    ['binary',
-     'binary',
-     'binary',
-     'bus',
-     'cache',
-     'clock',
-     'collection',
-     'kernel',
-     'RAM',
-     'register',
-     'set',
+    ['binary',  
+     'binary',  
+     'binary',  
+     'bus',  
+     'cache',  
+     'clock',  
+     'collection',  
+     'kernel',  
+     'RAM',  
+     'register',  
+     'set',  
      'string']
 
 
@@ -853,17 +853,17 @@ hardware_software_words
 
 
 
-    ['bus',
-     'RAM',
-     'set',
-     'cache',
-     'clock',
-     'binary',
-     'binary',
-     'binary',
-     'kernel',
-     'string',
-     'register',
+    ['bus',  
+     'RAM',  
+     'set',  
+     'cache',  
+     'clock',  
+     'binary',  
+     'binary',  
+     'binary',  
+     'kernel',  
+     'string',  
+     'register',  
      'collection']
 
 
@@ -890,17 +890,17 @@ hardware_software_words
 
 
 
-    ['binary',
-     'binary',
-     'binary',
-     'bus',
-     'cache',
-     'clock',
-     'collection',
-     'kernel',
-     'RAM',
-     'register',
-     'set',
+    ['binary',  
+     'binary',  
+     'binary',  
+     'bus',  
+     'cache',  
+     'clock',  
+     'collection',  
+     'kernel',  
+     'RAM',  
+     'register',  
+     'set',  
      'string']
 
 
@@ -923,18 +923,18 @@ hardware_software_words
 
 
 
-    ['binary',
-     'binary',
-     'binary',
-     'bus',
-     'cache',
-     'clock',
-     'collection',
-     'kernel',
-     'lambda',
-     'RAM',
-     'register',
-     'set',
+    ['binary',  
+     'binary',  
+     'binary',  
+     'bus',  
+     'cache',  
+     'clock',  
+     'collection',  
+     'kernel',  
+     'lambda',  
+     'RAM',  
+     'register',  
+     'set',  
      'string']
 
 
@@ -987,19 +987,19 @@ hardware_software_words
 
 
 
-    ['binary',
-     'binary',
-     'binary',
-     'bus',
-     'cache',
-     'clock',
-     'collection',
-     'kernel',
-     'lambda',
-     'lambda',
-     'RAM',
-     'register',
-     'set',
+    ['binary',  
+     'binary',  
+     'binary',  
+     'bus',  
+     'cache',  
+     'clock',  
+     'collection',  
+     'kernel',  
+     'lambda',  
+     'lambda',  
+     'RAM',  
+     'register',  
+     'set',  
      'string']
 
 
@@ -1024,19 +1024,19 @@ hardware_software_words
 
 
 
-    ['string',
-     'set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'clock',
-     'cache',
-     'bus',
-     'binary',
-     'binary',
+    ['string',  
+     'set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'clock',  
+     'cache',  
+     'bus',  
+     'binary',  
+     'binary',  
      'binary']
 
 
@@ -1059,19 +1059,19 @@ hardware_software_words
 
 
 
-    ['string',
-     'set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'clock',
-     'cache',
-     'bus',
-     'binary',
-     'binary',
+    ['string',  
+     'set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'clock',  
+     'cache',  
+     'bus',  
+     'binary',  
+     'binary',  
      'binary']
 
 
@@ -1098,18 +1098,18 @@ hardware_software_words
 
 
 
-    ['string',
-     'set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'cache',
-     'bus',
-     'binary',
-     'binary',
+    ['string',  
+     'set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'cache',  
+     'bus',  
+     'binary',  
+     'binary',  
      'binary']
 
 
@@ -1132,17 +1132,17 @@ hardware_software_words
 
 
 
-    ['string',
-     'set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'cache',
-     'bus',
-     'binary',
+    ['string',  
+     'set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'cache',  
+     'bus',  
+     'binary',  
      'binary']
 
 
@@ -1167,16 +1167,16 @@ hardware_software_words
 
 
 
-    ['string',
-     'set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'cache',
-     'bus',
+    ['string',  
+     'set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'cache',  
+     'bus',  
      'binary']
 
 
@@ -1199,15 +1199,15 @@ hardware_software_words
 
 
 
-    ['set',
-     'register',
-     'RAM',
-     'lambda',
-     'lambda',
-     'kernel',
-     'collection',
-     'cache',
-     'bus',
+    ['set',  
+     'register',  
+     'RAM',  
+     'lambda',  
+     'lambda',  
+     'kernel',  
+     'collection',  
+     'cache',  
+     'bus',  
      'binary']
 
 
