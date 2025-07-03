@@ -1,13 +1,13 @@
 ---
-sidebar_label: MISSING
-sidebar_position: MISSING
+sidebar_label: story project v3
+sidebar_position: 5
 last_update:
-    date: MISSING
-    author: MISSING
-description: MISSING
-tags: MISSING
-draft: MISSING
-unlisted: MISSING
+    date: 7/02/25
+    author: krblackwell
+description: Silly Story Project with Python for Absolute Beginners
+tags: ['python', 'project', 'silly stories', 'foundations', 'dictionaries']
+draft: False
+unlisted: False
 ---
 
 
@@ -153,10 +153,12 @@ As he passes his {words.get("type_of_animal2")} friends, they exclaim,
 <div class="output-cell">
 
       
-    Lionel is a/an mosasaurus who lives in a bubbly blip. Every day,  
-    Lionel wakes up with a/an shriek, and eats his breakfast of rain.  
-    He goes to the bazaar.  
-    As he passes his bubble friends, they exclaim, "No way!"  
+    Lionel is a/an mosasaurus who lives in a  
+    bubbly blip. Every day,  
+    Lionel wakes up with a/an shriek, and eats  
+    his breakfast of rain. He goes to the bazaar.  
+    As he passes his bubble friends, they exclaim,  
+    "No way!"  
       
 
 
@@ -180,7 +182,7 @@ words = {
     "adjectives": ['fizzy', 'stinky', 'flat', 'long', 'hairy',
                    'shimmery'],
     "nouns": ['nose', 'yawn', 'waffles', 'cat food', 'funyuns',
-              'phone', 'journal', 'bowling ball', 'tree', 
+              'phone', 'journal', 'bowling ball', 'tree',
               'pumpkin', 'ceramic art'],
     "places": ['city of Timbuktu', 'forge', 'internet', 'backyard',
                'mountain', 'volcano', 'kitchen'],

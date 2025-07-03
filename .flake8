@@ -7,3 +7,5 @@ per-file-ignores =
     notebooks/python/01-foundations/01-print*: W605,
     notebooks/python/01-foundations/03-f-string*: F541
     notebooks/python/01-foundations/projects/story-project-v*: E402
+    notebooks/python/01-foundations/10-logical-and-comparison-operators*: F401
+

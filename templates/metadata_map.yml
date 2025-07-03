@@ -148,3 +148,13 @@ notebooks:
     tags: [python, foundations, operators, comparison]
     draft: false
     unlisted: false
+
+  compliment-generator-v1.ipynb:
+    sidebar_label: compliment generator v1
+    sidebar_position: 3
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: Python Project - Compliment generator
+    tags: [python, foundations, lists]
+    draft: false
+    unlisted: false

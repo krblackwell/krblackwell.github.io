@@ -1,5 +1,5 @@
 ---
-sidebar_label: story project v1
+sidebar_label: story project v2
 sidebar_position: 4
 last_update:
     date: 7/01/25
