@@ -12,7 +12,6 @@ class EscapeCurlyPreprocessor(Preprocessor):
                         .replace('{', r'\{')\
                         .replace('}', r'\}')\
                         .replace('\n', '  \n')
-                        #.replace('\n', '\\\n')
                     data['text/plain'] = escaped_text
             elif output.get('output_type') == 'stream':
                 if 'text' in output:
@@ -21,6 +20,5 @@ class EscapeCurlyPreprocessor(Preprocessor):
                         .replace('{', r'\{')\
                         .replace('}', r'\}')\
                         .replace('\n', '  \n')
-                        #.replace('\n', '\\\n')
                     output['text'] = escaped_text
         return cell, resources

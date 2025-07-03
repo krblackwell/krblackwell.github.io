@@ -35,7 +35,7 @@ notebooks:
     last_update_date: 6/20/25
     last_update_author: krblackwell
     description: Silly Story Project with Python for Absolute Beginners
-    tags: [python, project, silly-stories, foundations, print, variables, f-strings]
+    tags: [python, project, silly stories, foundations, print, variables, f-strings]
     draft: false
     unlisted: false
 
@@ -65,7 +65,7 @@ notebooks:
     last_update_date: 6/28/25
     last_update_author: krblackwell
     description: Alien Translator project with Python for Absolute Beginners
-    tags: [python, project, alien-translator, foundations, strings, methods]
+    tags: [python, project, secret messages, foundations, strings, slice, methods]
     draft: false
     unlisted: false
 
@@ -109,3 +109,42 @@ notebooks:
     draft: false
     unlisted: false
 
+  story-project-v2.ipynb:
+    sidebar_label: story project v2
+    sidebar_position: 4
+    last_update_date: 7/01/25
+    last_update_author: krblackwell
+    description: Silly Story Project with Python for Absolute Beginners
+    tags: [python, project, silly stories, foundations, lists]
+    draft: false
+    unlisted: false
+
+  story-project-v3.ipynb:
+    sidebar_label: story project v3
+    sidebar_position: 5
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: Silly Story Project with Python for Absolute Beginners
+    tags: [python, project, silly stories, foundations, dictionaries]
+    draft: false
+    unlisted: false
+
+  digital-pet-v1.ipynb:
+    sidebar_label: digital pet v1
+    sidebar_position: 3
+    last_update_date: 7/01/25
+    last_update_author: krblackwell
+    description: Python Projects for beginners Digital Pet v1.
+    tags: [python, foundations, digital pet]
+    draft: false
+    unlisted: false
+
+  10-logical-and-comparison-operators.ipynb:
+    sidebar_label: How do I compare stuff?
+    sidebar_position: 10
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: How do I compare stuff? Logical and comparison operators in Python
+    tags: [python, foundations, operators, comparison]
+    draft: false
+    unlisted: false

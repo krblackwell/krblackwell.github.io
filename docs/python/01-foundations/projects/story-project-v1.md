@@ -5,7 +5,7 @@ last_update:
     date: 6/20/25
     author: krblackwell
 description: Silly Story Project with Python for Absolute Beginners
-tags: ['python', 'project', 'silly-stories', 'foundations', 'print', 'variables', 'f-strings']
+tags: ['python', 'project', 'silly stories', 'foundations', 'print', 'variables', 'f-strings']
 draft: False
 unlisted: False
 ---
@@ -267,7 +267,7 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 Try making your own silly story, or fill in one with a friend!
 <!-- markdownlint-disable MD033 -->
 :::tip
-<a href="/lite/lab/index.html">Open a new blank notebook in the Lab</a> to test if you can remember how to do this on your own! To open a new notebook from the link below, click on the tile that says "Py" or "Python."
+<a href="/lite/lab/index.html">Open a new blank notebook in the Lab</a> to test if you can remember how to do this on your own! To open a new notebook from the link, click on the tile that says "Py" or "Python."
 :::
 <!-- markdownlint-enable MD033 -->
 
