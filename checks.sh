@@ -63,7 +63,7 @@ errors_to_file ${rc} "notebook linting error" >> ${log_file}
 echo
 
 echo MARKDOWN LINTING - see config
-echo MD013 long line linting does not affect the docusaurus page build, the other two disabled rules are because of the way nbconvert converts the documents
+echo MD013 long line linting does not affect the docusaurus page build, the other two disabled rules are because of the way nbconvert converts the documents. MD033 is disabled because Im using so much html
 
 npx markdownlint-cli2 "docs/**/*.{md,mdx}" "blog/**/*.{md,mdx}"
 rc=$?

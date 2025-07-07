@@ -8,7 +8,9 @@ const config: Config = {
   title: 'Learn to Code Python for Free',
   tagline: 'Learn Python, Make Projects. Have fun learning to code! Free without logins.',
   favicon: 'img/favicon.ico',
-
+  markdown: {
+    mermaid: true,
+  },
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -35,7 +37,6 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -60,7 +61,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
     announcementBar: {
       id: 'under_construction',
@@ -70,9 +71,14 @@ const config: Config = {
       textColor: '#091E42',
       isCloseable: false,
     },
+    docs: {
+      sidebar: {
+        hideable: true
+      },
+    },
     image: 'img/social-card.jpg',
     navbar: {
-      title: 'Home',
+      title: 'Learn Coding for Free',
       logo: {
         alt: 'Site Logo with letters KB',
         src: 'img/logo.svg',
@@ -84,13 +90,14 @@ const config: Config = {
           position: 'left',
           label: 'Python',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/krblackwell/krblackwell.github.io',
-          position: 'right',
-          className: 'navbar-github-icon',
-          'aria-label': 'GitHub repository',
+          type: 'docSidebar',           
+          sidebarId: 'markdownSidebar',
+          position: 'left',
+          label: 'Markdown',
         },
+        {to: '/glossary', label: 'Glossary', position: 'right'},
+        {to: '/blog', label: 'Parents', position: 'right'},
       ],
     },
     footer: {
@@ -103,20 +110,24 @@ const config: Config = {
               label: 'Python Foundations',
               to: '/docs/python/foundations',
             },
+            {
+              label: 'Python Control Flow',
+              to: '/docs/python/control-flow',
+            },
           ],
         },
         {
           title: 'Site Links',
           items: [
             {
-              html: '<a href="/lite/lab/index.html?path=welcome.md">The Lab</a>',
+              html: '<a href="/lite/lab/index.html?path=welcome.ipynb">The Lab</a>',
              },
             {
               label: 'Get Started with Python',
               href: '/docs/python/get-set-up/python-get-set-up-website',
             },
             {
-              label: 'Jump in! Python Foundations',
+              label: 'Jump in! Intro to Python',
               href: '/docs/python/foundations',
             },
           ],
@@ -125,17 +136,25 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog for Parents and Teachers',
+              label: 'Blog for Parents, Teachers, and Adult Learners',
               to: '/blog',
             },
             {
-              label: 'GitHub',
+              label: 'GitHub Repo for this site',
               href: 'https://github.com/krblackwell/krblackwell.github.io',
             },
+            {
+              label: 'Privacy Policy',
+              to: '/privacy',
+           },
+                       {
+              label: 'Terms of Use',
+              to: '/terms',
+           },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Katie Blackwell. Built with Docusaurus. Hosted on GitHub Pages.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -143,5 +162,6 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
 
 export default config;

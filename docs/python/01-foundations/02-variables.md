@@ -5,22 +5,23 @@ last_update:
     date: 6/14/25
     author: krblackwell
 description: Introductory Python - What are variables?
-tags: ['python']
+tags: ['python', 'foundations', 'variables']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 
 
 <!-- markdownlint-disable MD033 MD041 -->
-<a href="/lite/lab/index.html?path=python/01-foundations/02-python-foundations-variables.ipynb" target="_blank">
+<a href="/lite/lab/index.html?path=python/01-foundations/02-variables.ipynb" target="_blank">
   <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
 </a>
 <!-- markdownlint-enable MD033 MD041 -->
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-variables) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/variables) - [Go to Foundations section](/docs/python/foundations)
 
 # What are variables?
 
@@ -52,7 +53,7 @@ print("Hello, World!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello, World!
+    Hello, World!  
 
 
 </div><br/>
@@ -71,7 +72,7 @@ print("Hello,", name)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello, Katie
+    Hello, Katie  
 
 
 </div><br/>
@@ -125,7 +126,7 @@ print("Hello " + "You! " + "How are you doing?")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello You! How are you doing?
+    Hello You! How are you doing?  
 
 
 </div><br/>
@@ -142,7 +143,7 @@ print(greeting)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello You! How are you doing?
+    Hello You! How are you doing?  
 
 
 </div><br/>
@@ -160,7 +161,7 @@ print(greeting)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello Sam! How are you doing?
+    Hello Sam! How are you doing?  
 
 
 </div><br/>
@@ -178,7 +179,7 @@ print(greeting)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    Hello Krissy! How are you doing?
+    Hello Krissy! How are you doing?  
 
 
 </div><br/>
@@ -202,7 +203,7 @@ print("It's " + str(number1) + "!")
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    It's 5!
+    It's 5!  
 
 
 </div><br/>
@@ -218,7 +219,7 @@ print(number1 + number2)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    8
+    8  
 
 
 </div><br/>
@@ -232,7 +233,7 @@ print(number1 - number2)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    2
+    2  
 
 
 </div><br/>
@@ -246,7 +247,7 @@ print(number1 * number2)
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    15
+    15  
 
 
 </div><br/>

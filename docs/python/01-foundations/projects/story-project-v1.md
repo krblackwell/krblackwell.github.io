@@ -1,26 +1,27 @@
 ---
 sidebar_label: story project v1
-sidebar_position: 4
+sidebar_position: 1
 last_update:
     date: 6/20/25
     author: krblackwell
 description: Silly Story Project with Python for Absolute Beginners
-tags: ['python', 'project']
+tags: ['python', 'project', 'silly stories', 'foundations', 'print', 'variables', 'f-strings']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 
 
 <!-- markdownlint-disable MD033 MD041 -->
-<a href="/lite/lab/index.html?path=python/01-foundations/04-python-foundations-story-project.ipynb" target="_blank">
+<a href="/lite/lab/index.html?path=python/01-foundations/projects/story-project-v1.ipynb" target="_blank">
   <img src="https://jupyterlite.rtfd.io/en/latest/_static/badge.svg" alt="Open in the Lab!" />
 </a>
 <!-- markdownlint-enable MD033 MD041 -->
 
 
 <!-- markdownlint-disable-next-line MD041 -->
-[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/python-foundations-story-project) - [Go to Foundations section](/docs/python/foundations)
+[Go back to Home](/) - [Go to lesson page](/docs/python/foundations/projects/story-project-v1) - [Go to Foundations section](/docs/python/foundations)
 
 # Project - Silly Stories v1
 
@@ -42,7 +43,7 @@ A Silly Story is a sentence that has some words taken out, and a friend fills th
 
 ## Let's start with the full story
 
-Here is the story we'll use.
+Here is the story we'll use. We'll take out words and replace them with variables after we talk about it a little bit.
 
 Pip is an axolotl who lives in a beautiful lake. Every day, Pip wakes up with a yawn, and eats his breakfast of waffles. He goes to the market. As he passes his turtle friends, they exclaim, "What a beautiful day!"
 
@@ -61,12 +62,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -75,6 +76,8 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 ## Replace words with variables
 
 The next step is to replace some of the words with variables that we will say are parts of speech, or specific types of words. Let's replace the name of our character with a variable. Remember to add the `f`!
+
+`name = 'Pip'` is your variable, and `{name}` is how you add it in your f-string.
 
 
 ```python
@@ -91,12 +94,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -124,16 +127,18 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+Next, we'll take out an adjective, and replace it with a variable.
 
 
 ```python
@@ -152,12 +157,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -181,12 +186,12 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip wakes up with a yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -207,7 +212,7 @@ type_of_animal2 = 'turtle'
 exclamation = "What a beautiful day"
 
 print(f"""
-{name} is a/an {type_of_animal} who lives in a {adjective1} lake. Every day,
+{name} is a/an {type_of_animal} who lives in a {adjective1} {noun1}. Every day,
 {name} wakes up with a/an {noun2}, and eats his breakfast of {noun3}.
 He goes to the {place}.
 As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
@@ -217,12 +222,12 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,
-    Pip wakes up with a/an yawn, and eats his breakfast of waffles.
-    He goes to the market.
-    As he passes his turtle friends, they exclaim, "What a beautiful day!"
-    
+      
+    Pip is a/an axolotl who lives in a beautiful day. Every day,  
+    Pip wakes up with a/an yawn, and eats his breakfast of waffles.  
+    He goes to the market.  
+    As he passes his turtle friends, they exclaim, "What a beautiful day!"  
+      
 
 
 </div><br/>
@@ -243,7 +248,7 @@ type_of_animal2 = 'snake'
 exclamation = "AH"
 
 print(f"""
-{name} is a/an {type_of_animal} who lives in a {adjective1} lake. Every day,
+{name} is a/an {type_of_animal} who lives in a {adjective1} {noun1}. Every day,
 {name} wakes up with a/an {noun2}, and eats his breakfast of {noun3}.
 He goes to the {place}.
 As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
@@ -253,12 +258,12 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    
-    Cookie is a/an cat who lives in a smelly lake. Every day,
-    Cookie wakes up with a/an egg, and eats his breakfast of boombox.
-    He goes to the volcano.
-    As he passes his snake friends, they exclaim, "AH!"
-    
+      
+    Cookie is a/an cat who lives in a smelly glue. Every day,  
+    Cookie wakes up with a/an egg, and eats his breakfast of boombox.  
+    He goes to the volcano.  
+    As he passes his snake friends, they exclaim, "AH!"  
+      
 
 
 </div><br/>
@@ -267,7 +272,7 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 Try making your own silly story, or fill in one with a friend!
 <!-- markdownlint-disable MD033 -->
 :::tip
-<a href="/lite/lab/index.html">Open a new blank notebook in the Lab</a> to test if you can remember how to do this on your own! To open a new notebook from the link below, click on the tile that says "Py" or "Python."
+<a href="/lite/lab/index.html">Open a new blank notebook in the Lab</a> to test if you can remember how to do this on your own! To open a new notebook from the link, click on the tile that says "Py" or "Python."
 :::
 <!-- markdownlint-enable MD033 -->
 

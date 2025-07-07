@@ -2,6 +2,7 @@ import nbformat
 from nbconvert import MarkdownExporter
 import yaml
 import sys
+from curlypreprocessor import EscapeCurlyPreprocessor
 from preprocessor import AdmonitionPreprocessor
 from pathlib import Path
 
@@ -29,6 +30,7 @@ exporter = MarkdownExporter(
 )
 
 exporter.register_preprocessor(AdmonitionPreprocessor, enabled=True)
+exporter.register_preprocessor(EscapeCurlyPreprocessor, enabled=True)
 
 body, _ = exporter.from_notebook_node(
     nb,

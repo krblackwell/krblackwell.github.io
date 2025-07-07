@@ -1,40 +1,180 @@
 notebooks:
-  01-python-foundations-print.ipynb:
+  01-print.ipynb:
     sidebar_label: prints
     sidebar_position: 1
-    last_update_date: 6/14/25
+    last_update_date: 6/28/25
     last_update_author: krblackwell
     description: Introductory Python - What are prints?
-    tags: [python]
+    tags: [python, foundations, print]
     draft: false
     unlisted: false
 
-  02-python-foundations-variables.ipynb:
+  02-variables.ipynb:
     sidebar_label: variables
     sidebar_position: 2
     last_update_date: 6/14/25
     last_update_author: krblackwell
     description: Introductory Python - What are variables?
-    tags: [python]
+    tags: [python, foundations, variables]
     draft: false
     unlisted: false
 
-  03-python-foundations-f-string.ipynb:
+  03-f-string.ipynb:
     sidebar_label: f-strings
     sidebar_position: 3
     last_update_date: 6/14/25
     last_update_author: krblackwell
     description: Introductory Python - What are f-strings?
-    tags: [python]
+    tags: [python, foundations, f-strings]
     draft: false
     unlisted: false
 
-  04-python-foundations-story-project.ipynb:
+  story-project-v1.ipynb:
     sidebar_label: story project v1
-    sidebar_position: 4
+    sidebar_position: 1
     last_update_date: 6/20/25
     last_update_author: krblackwell
     description: Silly Story Project with Python for Absolute Beginners
-    tags: [python, project]
+    tags: [python, project, silly stories, foundations, print, variables, f-strings]
+    draft: false
+    unlisted: false
+
+  04-naming-conventions.ipynb:
+    sidebar_label: naming conventions
+    sidebar_position: 4
+    last_update_date: 6/28/25
+    last_update_author: krblackwell
+    description: How to name variables in Python.
+    tags: [python, foundations, naming]
+    draft: false
+    unlisted: false
+
+  05-string-methods.ipynb:
+    sidebar_label: string methods
+    sidebar_position: 5
+    last_update_date: 6/28/25
+    last_update_author: krblackwell
+    description: How to use string methods in Python.
+    tags: [python, foundations, strings, methods]
+    draft: false
+    unlisted: false
+
+  alien-translator-v1.ipynb:
+    sidebar_label: alien translator v1
+    sidebar_position: 2
+    last_update_date: 6/28/25
+    last_update_author: krblackwell
+    description: Alien Translator project with Python for Absolute Beginners
+    tags: [python, project, secret messages, foundations, strings, slice, methods]
+    draft: false
+    unlisted: false
+
+  06-documentation.ipynb:
+    sidebar_label: documentation
+    sidebar_position: 6
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to read documentation.
+    tags: [python, foundations, documentation]
+    draft: false
+    unlisted: false
+
+  07-lists-and-strings.ipynb:
+    sidebar_label: lists and strings
+    sidebar_position: 7
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to use lists and more string methods in Python.
+    tags: [python, foundations, lists, strings, methods]
+    draft: false
+    unlisted: false
+
+  08-lists.ipynb:
+    sidebar_label: lists
+    sidebar_position: 8
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to use list methods.
+    tags: [python, foundations, lists]
+    draft: false
+    unlisted: false
+
+  09-dictionaries.ipynb:
+    sidebar_label: dictionaries
+    sidebar_position: 9
+    last_update_date: 6/29/25
+    last_update_author: krblackwell
+    description: How to use dictionaries in Python.
+    tags: [python, foundations, dictionaries]
+    draft: false
+    unlisted: false
+
+  story-project-v2.ipynb:
+    sidebar_label: story project v2
+    sidebar_position: 4
+    last_update_date: 7/01/25
+    last_update_author: krblackwell
+    description: Silly Story Project with Python for Absolute Beginners
+    tags: [python, project, silly stories, foundations, lists]
+    draft: false
+    unlisted: false
+
+  story-project-v3.ipynb:
+    sidebar_label: story project v3
+    sidebar_position: 5
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: Silly Story Project with Python for Absolute Beginners
+    tags: [python, project, silly stories, foundations, dictionaries]
+    draft: false
+    unlisted: false
+
+  digital-pet-v1.ipynb:
+    sidebar_label: digital pet v1
+    sidebar_position: 3
+    last_update_date: 7/01/25
+    last_update_author: krblackwell
+    description: Python Projects for beginners Digital Pet v1.
+    tags: [python, foundations, digital pet]
+    draft: false
+    unlisted: false
+
+  10-logical-and-comparison-operators.ipynb:
+    sidebar_label: comparisons
+    sidebar_position: 10
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: How do I compare stuff? Logical and comparison operators in Python
+    tags: [python, foundations, operators, comparison]
+    draft: false
+    unlisted: false
+
+  compliment-generator-v1.ipynb:
+    sidebar_label: compliment generator v1
+    sidebar_position: 3
+    last_update_date: 7/02/25
+    last_update_author: krblackwell
+    description: Python Project - Compliment generator
+    tags: [python, foundations, lists]
+    draft: false
+    unlisted: false
+
+  01-conditionals.ipynb:
+    sidebar_label: conditionals
+    sidebar_position: 1
+    last_update_date: 7/04/25
+    last_update_author: krblackwell
+    description: Python conditionals - learn if-then logic with if-elif-else.
+    tags: [python, control-flow, conditionals]
+    draft: false
+    unlisted: false
+
+  adventure-story-v1.ipynb:
+    sidebar_label: Adventure Story v1
+    sidebar_position: 1
+    last_update_date: 7/07/25
+    last_update_author: krblackwell
+    description: Python conditionals with an interactive story.
+    tags: [python, control-flow, conditionals, adventure-story, project]
     draft: false
     unlisted: false
