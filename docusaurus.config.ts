@@ -8,7 +8,9 @@ const config: Config = {
   title: 'Learn to Code Python for Free',
   tagline: 'Learn Python, Make Projects. Have fun learning to code! Free without logins.',
   favicon: 'img/favicon.ico',
-
+  markdown: {
+    mermaid: true,
+  },
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -59,7 +61,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
     announcementBar: {
       id: 'under_construction',
@@ -89,7 +91,7 @@ const config: Config = {
           label: 'Python',
         },
         {
-          type: 'docSidebar',
+          type: 'docSidebar',           
           sidebarId: 'markdownSidebar',
           position: 'left',
           label: 'Markdown',
@@ -141,6 +143,10 @@ const config: Config = {
               label: 'Privacy Policy',
               to: '/privacy',
            },
+                       {
+              label: 'Terms of Use',
+              to: '/terms',
+           },
           ],
         },
       ],
@@ -152,5 +158,6 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
 
 export default config;

@@ -554,4 +554,4 @@ example_split
 
 ## Conclusion
 
-Now you can handle strings and lists like a pro. There is more to cover for lists,
+Now you can handle strings and lists like a pro. Strings can be treated like lists of characters in Python, or lists of tokens. There is more to cover for lists, and this lesson covered the methods that are available with lists.

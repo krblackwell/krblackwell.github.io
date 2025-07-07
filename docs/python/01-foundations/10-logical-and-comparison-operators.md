@@ -1,5 +1,5 @@
 ---
-sidebar_label: How do I compare stuff?
+sidebar_label: comparisons
 sidebar_position: 10
 last_update:
     date: 7/02/25
@@ -25,6 +25,8 @@ unlisted: False
 # How do I compare things?
 
 This lesson is going to cover how to compare things. You've seen the `==` equals comparison operator in a few lessons. This let's you know if two things are the same.
+
+This becomes even more important when you get to the next section. The if-thens and looping that we're going to get into depend on these comparisons.
 
 ## Learning Objectives
 
@@ -69,9 +71,11 @@ import this
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
-This is called the Zen of Python. It's a guide to writing Python code. Some of the big takeaways is that coding is about a balance. Sometimes you need to code something that's ugly, because that's the only way to achieve your results in a way that's practical.
+This is called the Zen of Python. It's a guide to writing Python code. Some of the big takeaways is that coding should be straightforward and simple. You want code to be clear and readable.
 
-You want code to be clear and readable. Someone else should be able to follow it and understand what's going on, and what's not going on.
+Someone else should be able to follow it and understand what's going on.
+
+But code is also about a balance. Sometimes you need to code something that's ugly, because that's the only way to achieve your results in a way that's practical.
 
 ## `is`
 
@@ -202,7 +206,7 @@ dict1 is dict2
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
-Like the "identical" lists, these two empty dictionaries below are the same to us, but they have different locations in memory. If I make changes to one, it doesn't make changes to the other. They're independent.
+Look at the two empty dictionaries below. Like the "identical" lists, these two empty dictionaries below are the same to us, but they have different locations in memory.
 
 
 ```python
@@ -225,11 +229,33 @@ dict1 is dict2
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+If I make changes to one, it doesn't make changes to the other. They're independent.
+
+
+```python
+dict1['new'] = "thing"
+
+dict2
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    \{\}
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
 ## Comparing strings
 
 We compare strings basically the same was as comparing numbers, but there's one `pythonic` way of comparing that I want to point out.
 
-If we want to know whether something is `in` a list or if a string contains another string, we use `in`.
+If we want to know whether something is **in** a list or if a string contains another string, we use `in`.
 
 In the example below, we look for the word "example" in "An example string" and we find it!
 
@@ -333,6 +359,8 @@ list1 = [1, 2, 3]
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+Let's look at a dictionary next. It has the word "xylophone" in it. We can see it.
+
 
 ```python
 person_dict = {
@@ -340,6 +368,26 @@ person_dict = {
     "likes": ["owls", "xylophone", "books"]
 }
 
+"xylophone" in person_dict
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    False
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+Why can't it find it? There is a reason. Let's check a different way. We have to check the values in the keys individually. Xylophone is part of "likes" and you can't check the dictionary itself like we did above.
+
+
+```python
 "xylophone" in person_dict.get("likes")
 ```
 
@@ -395,6 +443,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 ### `==` and `!=` equals and not equals
 
+1 doesn't equal 2, so we see false when we ask if 1 = 2. In programming, you usually compare with two equals signs and assign a value to a variable with one equal sign.
+
 
 ```python
 1 == 2
@@ -412,6 +462,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+I recommend you put parentheses around your comparisons.
 
 
 ```python
@@ -431,6 +483,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+You can check if one string equals another. Remember, it'll only say `True` if they're the same case and everything.
+
 
 ```python
 "This is the same" == "This is the same"
@@ -448,6 +502,50 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+See, "This" and "this" are seen as different.
+
+
+```python
+"This is different" == "this is different"
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    False
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+But we can fix that, by making everything the same case. You can do uppercase or lowercase.
+
+
+```python
+"This is different".lower() == "this is different".lower()
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+Nice! They're the same.
+
+And of course, we'll see two things return `False` if they're obviously different like the next example.
 
 
 ```python
@@ -467,6 +565,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+These two strings are the same. If we use `!=`, it'll say `False`. We're asking "are these different?" `False` means "no" they're not different.
+
 
 ```python
 "This is the same" != "This is the same"
@@ -484,6 +584,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+So then if we ask if two different strings are different with `!=`, you'll see `True`. Are they different? Yes! True.
 
 
 ```python
@@ -503,6 +605,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+The same with numbers. 3 is the same as 3.
+
 
 ```python
 3 == 3
@@ -521,6 +625,48 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+It might be easier to see this way. Note, you can leave out the parentheses, and it'll understand what you mean.
+
+
+```python
+3 == 1 + 2
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+I still recommend putting parentheses around things. It makes it easier to read, and it makes it clear that you're comparing (1 + 2) with 3.
+
+
+```python
+3 == (1 + 2)
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+Just like when you ask if two strings are the same, you ask "is 3 not 3?" and you get `False`. Because 3 is the same as 3.
+
 
 ```python
 3 != 3
@@ -538,6 +684,8 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+Another example, 1 is different from 2. True!
 
 
 ```python
@@ -559,7 +707,7 @@ Based on my experience, I recommend always wrapping your comparisons in parenthe
 
 ### `>` and `<` greater than and less than
 
-For the greater than/less than operators, you'll want to use numbers for comparison.
+For the greater than/less than operators, you'll want to use numbers for comparison. And you know 1 is less than 3, so we see `True`.
 
 
 ```python
@@ -579,6 +727,8 @@ For the greater than/less than operators, you'll want to use numbers for compari
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+Remember you have the **less than OR equal to** operator. That includes the same number. In this next example, we want to know... Is 2 less than or equal to 2? It's equal to 2, so we see `True`!
+
 
 ```python
 2 <= 2
@@ -596,6 +746,8 @@ For the greater than/less than operators, you'll want to use numbers for compari
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+It doesn't matter how much larger the other number is when you check if something is greater or less than. Is 2 less than or equal to 1000? Yep! `True`.
 
 
 ```python
@@ -615,6 +767,8 @@ For the greater than/less than operators, you'll want to use numbers for compari
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+6 is greater than 3. We see `True`.
+
 
 ```python
 6 > 3
@@ -633,6 +787,8 @@ For the greater than/less than operators, you'll want to use numbers for compari
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+Just like with 2 less than or equal to 2, we can check if 4 is **greater than or equal to** 4. It's equal to, so we get `True`.
+
 
 ```python
 4 >= 4
@@ -650,6 +806,8 @@ For the greater than/less than operators, you'll want to use numbers for compari
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+It works with negative numbers too. 4 is greater than or equal to -2.
 
 
 ```python
@@ -781,7 +939,173 @@ But with `or`, only one has to be true to get true, no matter how many are false
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
+You might have to pause for `not`. It reverses the `True` or `False`.
+
 
 ```python
-
+not True
 ```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    False
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+
+```python
+not False
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+### not
+
+not (1 == 2) means `not False` so we get `True`
+
+
+```python
+not (1 == 2)
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+And the truthy or falsy values are reversed with not!
+
+1 is truthy. `not 1` becomes `False`.
+
+
+```python
+not 1
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    False
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+0 is falsy. `not 0` is `True`.
+
+
+```python
+not 0
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+"" is falsy, so `not ""` is `True`.
+
+
+```python
+not ""
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    True
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+A string with values in it is truthy, so `not "anything"` is False.
+
+
+```python
+not "anything"
+```
+
+<!-- markdownlint-disable MD033 MD009 -->
+<div class="output-cell">
+
+
+
+
+    False
+
+
+
+</div><br/>
+<!-- markdownlint-enable MD033 MD009 -->
+
+## Conclusion
+
+There was a lot to cover here, but now you can compare two things, more than two things, three comparisons, anything!
+
+Here is a table summarizing them all:
+
+### Comparison Operators
+
+| Operator | Name                 | Example         | Description                                  |
+|----------|----------------------|------------------|----------------------------------------------|
+| `==`     | Equal to             | `a == b`         | True if `a` is equal to `b`                  |
+| `!=`     | Not equal to         | `a != b`         | True if `a` is not equal to `b`              |
+| `>`      | Greater than         | `a > b`          | True if `a` is greater than `b`              |
+| `<`      | Less than            | `a < b`          | True if `a` is less than `b`                 |
+| `>=`     | Greater than or equal| `a >= b`         | True if `a` is greater than or equal to `b`  |
+| `<=`     | Less than or equal   | `a <= b`         | True if `a` is less than or equal to `b`     |
+| `is`     | Identity             | `a is b`         | True if `a` and `b` refer to the same object |
+| `is not` | Not identity         | `a is not b`     | True if `a` and `b` are not the same object  |
+| `in`     | Included/part of       | `a in b`         | True if `a` is in `b`                        |
+| `not in` | Not included/part of       | `a not in b`     | True if `a` is not in `b`                    |
+
+### Logical Operators
+
+| Operator | Name   | Example             | Description                                      |
+|----------|--------|---------------------|--------------------------------------------------|
+| `and`    | And    | `a and b`           | True if both `a` and `b` are True                |
+| `or`     | Or     | `a or b`            | True if either `a` or `b` is True                |
+| `not`    | Not    | `not a`             | True if `a` is False                             |

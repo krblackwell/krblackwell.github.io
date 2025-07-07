@@ -8,4 +8,6 @@ per-file-ignores =
     notebooks/python/01-foundations/03-f-string*: F541
     notebooks/python/01-foundations/projects/story-project-v*: E402
     notebooks/python/01-foundations/10-logical-and-comparison-operators*: F401
+    notebooks/python/01-foundations/projects/compliment-generator-v1*: E402
+    notebooks/python/02-control-flow/01-conditionals*: E402
 

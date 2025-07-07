@@ -70,3 +70,8 @@
 "olle"
 "REDAEL"
 "pythonic"
+"squishmallow"
+"Starbender"
+"tonk"
+"Ralphie"
+"judgements"

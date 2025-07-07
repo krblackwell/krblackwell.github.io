@@ -140,7 +140,7 @@ notebooks:
     unlisted: false
 
   10-logical-and-comparison-operators.ipynb:
-    sidebar_label: How do I compare stuff?
+    sidebar_label: comparisons
     sidebar_position: 10
     last_update_date: 7/02/25
     last_update_author: krblackwell
@@ -156,5 +156,25 @@ notebooks:
     last_update_author: krblackwell
     description: Python Project - Compliment generator
     tags: [python, foundations, lists]
+    draft: false
+    unlisted: false
+
+  01-conditionals.ipynb:
+    sidebar_label: conditionals
+    sidebar_position: 1
+    last_update_date: 7/04/25
+    last_update_author: krblackwell
+    description: Python conditionals - learn if-then logic with if-elif-else.
+    tags: [python, control-flow, conditionals]
+    draft: false
+    unlisted: false
+
+  adventure-story-v1.ipynb:
+    sidebar_label: Adventure Story v1
+    sidebar_position: 1
+    last_update_date: 7/07/25
+    last_update_author: krblackwell
+    description: Python conditionals with an interactive story.
+    tags: [python, control-flow, conditionals, adventure-story]
     draft: false
     unlisted: false

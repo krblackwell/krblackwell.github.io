@@ -140,9 +140,6 @@ unlisted: False
   fruits_dictionary.get(2)
   ````
 
-# Use .get() to retrieve the value for key 2
-value = my_dict.get(2)
-
 - **naming conventions**\
   A way of labeling or calling things so they follow a standard. These are rules that help people give descriptive names that don't cause a problem for coding. Some rules mean your program won't run, but some are guidelines and your program will still run.
   
