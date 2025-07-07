@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_coding_fun_projects=self.webpackChunklearn_coding_fun_projects||[]).push([[4122],{4122:(e,c,n)=>{n.d(c,{createInfoServices:()=>r.v});var r=n(6558);n(7208)}}]);

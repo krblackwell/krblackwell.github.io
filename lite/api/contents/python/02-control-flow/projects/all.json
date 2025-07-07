@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-07-07T22:42:05.616764Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-07-07T12:57:50.666179Z",
+      "mimetype": null,
+      "name": "adventure-story-v1.ipynb",
+      "path": "python/02-control-flow/projects/adventure-story-v1.ipynb",
+      "size": 19187,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-07-07T22:42:05.616764Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-07-07T22:42:05.616764Z",
+  "mimetype": null,
+  "name": "projects",
+  "path": "python/02-control-flow/projects",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_coding_fun_projects=self.webpackChunklearn_coding_fun_projects||[]).push([[9649],{9649:(e,c,r)=>{r.d(c,{createArchitectureServices:()=>n.S});var n=r(2529);r(7208)}}]);

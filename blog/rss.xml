@@ -4,10 +4,76 @@
         <title>Learn to Code Python for Free Blog</title>
         <link>https://krblackwell.github.io/blog/</link>
         <description>Learn to Code Python for Free Blog</description>
-        <lastBuildDate>Fri, 06 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Learn Python With Fun Projects]]></title>
+            <link>https://krblackwell.github.io/blog/learn-python-with-fun-projects/</link>
+            <guid>https://krblackwell.github.io/blog/learn-python-with-fun-projects/</guid>
+            <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the hurdles to coding is fear of the blank page. Sometimes, people can get stuck doing many tutorials and lessons without coding a line themselves. I picture learners following the notebook for a project to see how to do it. Then, they can add on to it in the Lab, or they can start a fresh notebook and see if they remember how to do it themselves.]]></description>
+            <content:encoded><![CDATA[<p>One of the hurdles to coding is fear of the blank page. Sometimes, people can get stuck doing many tutorials and lessons without coding a line themselves. I picture learners following the notebook for a project to see how to do it. Then, they can add on to it <a href="https://krblackwell.github.io/lite/lab/index.html?path=welcome.ipynb">in the Lab</a>, or they can <a href="https://krblackwell.github.io/lite/lab/index.html">start a fresh notebook</a> and see if they remember how to do it themselves.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="learning-python-with-projects">Learning Python With Projects<a href="https://krblackwell.github.io/blog/learn-python-with-fun-projects/#learning-python-with-projects" class="hash-link" aria-label="Direct link to Learning Python With Projects" title="Direct link to Learning Python With Projects">​</a></h2>
+<p>The projects available on this site are meant to be fun. I think it's ok to skip around and learn things here and there. Some people learn better by diving in to a hands-on example. This is partly why I don't label anything "beginner," "intermediate," etc. Some people learn by skipping around and following interesting breadcrumbs.</p>
+<p>Especially for kids who are learning. If you're not learning because you need to for work, then you can skip around and build momentum.</p>
+<p>However, I created the lessons and projects so that they build off one another a little at a time. A few projects contain information that isn't in its own lesson. Those are mentioned on the page for that section.</p>
+<p><a href="https://krblackwell.github.io/docs/python/foundations/">Foundation section mentions one project that teaches slicing strings and lists</a></p>
+<p><a href="https://krblackwell.github.io/docs/python/foundations/projects/story-project-v1/">An absolute beginner's project</a></p>
+<p>I label the projects with tags based on what you need to know, like "strings" for the string library, "f-string" if I'm using f-strings specifically. A few have the label "print" because they are the first projects or games you can do as an absolute beginner. I don't continue using "print" for a tag on every project, because we're using print almost everywhere.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-project">Example Project<a href="https://krblackwell.github.io/blog/learn-python-with-fun-projects/#example-project" class="hash-link" aria-label="Direct link to Example Project" title="Direct link to Example Project">​</a></h2>
+<p>The below gives you an idea of what the Silly Story project is. It uses concepts learned in the lessons like f-strings, lists, and dictionaries. <a href="https://krblackwell.github.io/docs/python/foundations/projects/">We have several versions in the projects for the foundations section</a></p>
+<p>You can change the words however many times you want and click on "Create Story."</p>
+<div><h2>Silly Stories Example</h2><div><label>Type of Person:<input type="text" value=""></label></div><div><label>A "to" Verb:<input type="text" value=""></label></div><div><label>A "to" Verb:<input type="text" value=""></label></div><div><label>Adjective:<input type="text" value=""></label></div><button>Create Story</button></div>]]></content:encoded>
+            <category>Python</category>
+            <category>The Lab</category>
+            <category>Projects</category>
+        </item>
+        <item>
+            <title><![CDATA[How does the Lab work?]]></title>
+            <link>https://krblackwell.github.io/blog/how-does-the-lab-work/</link>
+            <guid>https://krblackwell.github.io/blog/how-does-the-lab-work/</guid>
+            <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the hurdles to coding is setting up an environment and getting ready. That's usually the first few lessons. On this site, you can code online for free in your browser. The lab runs entirely in your browser and is powered by JupyterLite, a lightweight version of the Jupyter Notebook platform.]]></description>
+            <content:encoded><![CDATA[<p>One of the hurdles to coding is setting up an environment and getting ready. That's usually the first few lessons. On this site, you can code online for free in your browser. The lab runs entirely in your browser and is powered by JupyterLite, a lightweight version of the Jupyter Notebook platform.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-does-the-lab-work">How Does the Lab Work<a href="https://krblackwell.github.io/blog/how-does-the-lab-work/#how-does-the-lab-work" class="hash-link" aria-label="Direct link to How Does the Lab Work" title="Direct link to How Does the Lab Work">​</a></h2>
+<p>You might be wondering whether the lab environment is safe. It is, and I’m 100% comfortable letting my kids use it.</p>
+<p>The lab runs entirely in your browser and is powered by JupyterLite, a lightweight version of the Jupyter Notebook platform. According to the JupyterLite team:</p>
+<blockquote>
+<p>“The goal is to provide a lightweight computing environment accessible in a matter of
+seconds with a single click, in a web browser and without having to install anything.”</p>
+</blockquote>
+<p>That means:</p>
+<ul>
+<li>
+<p>No installation required</p>
+</li>
+<li>
+<p>Fast and lightweight</p>
+</li>
+<li>
+<p>Runs in your browser (even on your phone)</p>
+</li>
+<li>
+<p>Use it on a tablet, laptop, or desktop computer for the best experience, but it will work on mobile. The web pages look better on a small screen than the notebooks.</p>
+</li>
+</ul>
+<p>So if you're limited to a small tiny screen, focus on the lesson pages. You can open them in the Lab when you're ready to do some code.</p>
+<p>JupyterLite is affiliated with Jupyter.org, a well-known and trusted organization in the scientific computing community. I didn’t build the lab myself, but I’ve tested it, and feel confident recommending it.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-happens-if-something-goes-wrong">What Happens If Something Goes Wrong<a href="https://krblackwell.github.io/blog/how-does-the-lab-work/#what-happens-if-something-goes-wrong" class="hash-link" aria-label="Direct link to What Happens If Something Goes Wrong" title="Direct link to What Happens If Something Goes Wrong">​</a></h2>
+<p>Since this runs in your browser, it’s relatively safe and isolated. I’ve stress-tested it with infinite loops — and while you can't always stop runaway code directly in the notebook, you can simply close the browser tab to shut it down.</p>
+<p>Worst case scenario you can delete browser cache from the last hour or whenever you were using it. Just remember that deleting browser cache will delete other things your browser might be saving for you like shopping carts that aren't saved in an account or passwords or credit card info, depending on your settings and browser.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-few-safety-notes">A few safety notes<a href="https://krblackwell.github.io/blog/how-does-the-lab-work/#a-few-safety-notes" class="hash-link" aria-label="Direct link to A few safety notes" title="Direct link to A few safety notes">​</a></h2>
+<p>Don’t download or run notebooks from sources you don’t trust. Even though the environment is limited, a malicious notebook from outside my website could trick you into clicking a bad link or crash your browser.</p>
+<p>Files you upload are only stored in your browser's memory (local storage). I won’t see them, and they’ll disappear if you clear your browser cache.</p>
+<p>Don't put anything in there that you want to keep. It's a temporary space, not permanent storage.</p>
+<p>The lab doesn’t connect to an external server. It’s self-contained. This is perfect for our purposes, but it is a limited environment.</p>
+<p>So enjoy learning coding without the set up! I think if someone wants to code and get really into it, they can learn to set up stuff later.</p>]]></content:encoded>
+            <category>Introductions</category>
+            <category>Python</category>
+            <category>The Lab</category>
+        </item>
         <item>
             <title><![CDATA[Learn to Code for Free]]></title>
             <link>https://krblackwell.github.io/blog/welcome/</link>

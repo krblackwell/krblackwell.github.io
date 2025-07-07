@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_coding_fun_projects=self.webpackChunklearn_coding_fun_projects||[]).push([[6827],{6827:(e,c,n)=>{n.d(c,{createPacketServices:()=>r.$});var r=n(8531);n(7208)}}]);

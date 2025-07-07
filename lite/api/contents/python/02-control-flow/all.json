@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-07-07T22:42:05.616764Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-07-07T22:42:05.616764Z",
+      "mimetype": null,
+      "name": "projects",
+      "path": "python/02-control-flow/projects",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-07-07T22:42:05.616430Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-07-05T15:43:47.686698Z",
+      "mimetype": null,
+      "name": "01-conditionals.ipynb",
+      "path": "python/02-control-flow/01-conditionals.ipynb",
+      "size": 21125,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-07-07T22:42:05.616545Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-07-07T22:42:05.616545Z",
+  "mimetype": null,
+  "name": "02-control-flow",
+  "path": "python/02-control-flow",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
