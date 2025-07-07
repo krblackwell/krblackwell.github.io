@@ -1,5 +1,6 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
+hide_table_of_contents: true
 ---
 
 # Getting Started in Python

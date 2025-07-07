@@ -8,6 +8,7 @@ description: How to name variables in Python.
 tags: ['python', 'foundations', 'naming']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

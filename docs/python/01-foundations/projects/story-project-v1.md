@@ -8,6 +8,7 @@ description: Silly Story Project with Python for Absolute Beginners
 tags: ['python', 'project', 'silly stories', 'foundations', 'print', 'variables', 'f-strings']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 
@@ -42,7 +43,7 @@ A Silly Story is a sentence that has some words taken out, and a friend fills th
 
 ## Let's start with the full story
 
-Here is the story we'll use.
+Here is the story we'll use. We'll take out words and replace them with variables after we talk about it a little bit.
 
 Pip is an axolotl who lives in a beautiful lake. Every day, Pip wakes up with a yawn, and eats his breakfast of waffles. He goes to the market. As he passes his turtle friends, they exclaim, "What a beautiful day!"
 
@@ -75,6 +76,8 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 ## Replace words with variables
 
 The next step is to replace some of the words with variables that we will say are parts of speech, or specific types of words. Let's replace the name of our character with a variable. Remember to add the `f`!
+
+`name = 'Pip'` is your variable, and `{name}` is how you add it in your f-string.
 
 
 ```python
@@ -134,6 +137,8 @@ As he passes his turtle friends, they exclaim, "What a beautiful day!"
 
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
+
+Next, we'll take out an adjective, and replace it with a variable.
 
 
 ```python
@@ -207,7 +212,7 @@ type_of_animal2 = 'turtle'
 exclamation = "What a beautiful day"
 
 print(f"""
-{name} is a/an {type_of_animal} who lives in a {adjective1} lake. Every day,
+{name} is a/an {type_of_animal} who lives in a {adjective1} {noun1}. Every day,
 {name} wakes up with a/an {noun2}, and eats his breakfast of {noun3}.
 He goes to the {place}.
 As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
@@ -218,7 +223,7 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <div class="output-cell">
 
       
-    Pip is a/an axolotl who lives in a beautiful lake. Every day,  
+    Pip is a/an axolotl who lives in a beautiful day. Every day,  
     Pip wakes up with a/an yawn, and eats his breakfast of waffles.  
     He goes to the market.  
     As he passes his turtle friends, they exclaim, "What a beautiful day!"  
@@ -243,7 +248,7 @@ type_of_animal2 = 'snake'
 exclamation = "AH"
 
 print(f"""
-{name} is a/an {type_of_animal} who lives in a {adjective1} lake. Every day,
+{name} is a/an {type_of_animal} who lives in a {adjective1} {noun1}. Every day,
 {name} wakes up with a/an {noun2}, and eats his breakfast of {noun3}.
 He goes to the {place}.
 As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
@@ -254,7 +259,7 @@ As he passes his {type_of_animal2} friends, they exclaim, "{exclamation}!"
 <div class="output-cell">
 
       
-    Cookie is a/an cat who lives in a smelly lake. Every day,  
+    Cookie is a/an cat who lives in a smelly glue. Every day,  
     Cookie wakes up with a/an egg, and eats his breakfast of boombox.  
     He goes to the volcano.  
     As he passes his snake friends, they exclaim, "AH!"  

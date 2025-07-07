@@ -9,6 +9,7 @@ description: Learn coding! Markdown Basics
 tags: ['markdown']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 One thing that's important to know is there are different _flavors_ of Markdown. One platform or interpreter might do things a little differently when you get to some more complex ways of doing it.

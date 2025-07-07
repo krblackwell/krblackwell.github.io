@@ -8,6 +8,7 @@ description: Introductory Python - What are f-strings?
 tags: ['python', 'foundations', 'f-strings']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

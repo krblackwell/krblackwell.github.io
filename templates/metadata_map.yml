@@ -175,6 +175,6 @@ notebooks:
     last_update_date: 7/07/25
     last_update_author: krblackwell
     description: Python conditionals with an interactive story.
-    tags: [python, control-flow, conditionals, adventure-story]
+    tags: [python, control-flow, conditionals, adventure-story, project]
     draft: false
     unlisted: false

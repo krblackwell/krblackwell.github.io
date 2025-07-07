@@ -9,6 +9,7 @@ description: Learn coding! Markdown - What is Markdown?
 tags: ['markdown', 'setup']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 Markdown is like a way to code your text. What you're reading right now was originally written in markdown!

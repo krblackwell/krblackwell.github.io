@@ -12,3 +12,8 @@ lab:
   label: The Lab
   permalink: /the-lab
   description: About the Lab.
+
+project:
+  label: Projects
+  permalink: /project
+  description: Project tutorials.

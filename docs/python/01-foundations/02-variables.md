@@ -8,6 +8,7 @@ description: Introductory Python - What are variables?
 tags: ['python', 'foundations', 'variables']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

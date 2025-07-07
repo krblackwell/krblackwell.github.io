@@ -8,6 +8,7 @@ description: Learn coding! Introductory Python - How to use notebooks?
 tags: ['python', 'setup']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 # How to use Notebooks

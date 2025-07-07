@@ -8,6 +8,7 @@ description: How to read documentation.
 tags: ['python', 'foundations', 'documentation']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

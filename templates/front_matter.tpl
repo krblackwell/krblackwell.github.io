@@ -11,6 +11,7 @@ description: {{ nb.metadata.description | default('MISSING') }}
 tags: {{ nb.metadata.tags | default('MISSING') }}
 draft: {{ nb.metadata.draft | default('MISSING') }}
 unlisted: {{ nb.metadata.unlisted | default('MISSING') }}
+hide_table_of_contents: true
 ---
 {% set full_path = nb.metadata.relative_path if nb.metadata.relative_path is defined else 'MISSING' %}
 {% set rel_path = full_path | replace('notebooks/', '') %}

@@ -8,6 +8,7 @@ description: Learn coding! How to use this website to learn Python.
 tags: ['python']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 # How do I use this website?

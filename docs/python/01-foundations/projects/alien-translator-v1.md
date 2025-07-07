@@ -8,6 +8,7 @@ description: Alien Translator project with Python for Absolute Beginners
 tags: ['python', 'project', 'secret messages', 'foundations', 'strings', 'slice', 'methods']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

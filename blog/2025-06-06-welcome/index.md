@@ -3,6 +3,7 @@ slug: welcome
 title: Learn to Code for Free
 authors: krblackwell
 tags: [introductions, python]
+hide_table_of_contents: true
 ---
 
 This blog is here for teachers, parents, and guardians who want to support their learners. This site makes coding easy to learn by removing common roadblocks. Everything is in the browser, no logins, and it's free. Learn Python now!

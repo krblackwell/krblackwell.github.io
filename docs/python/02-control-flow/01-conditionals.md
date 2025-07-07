@@ -8,6 +8,7 @@ description: Python conditionals - learn if-then logic with if-elif-else.
 tags: ['python', 'control-flow', 'conditionals']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

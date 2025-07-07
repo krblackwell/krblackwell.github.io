@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+hide_table_of_contents: true
+---
+
 # Control Flow
 
 This section goes through the way to make different things happen in your program.

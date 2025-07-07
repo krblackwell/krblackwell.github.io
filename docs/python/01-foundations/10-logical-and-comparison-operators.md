@@ -8,6 +8,7 @@ description: How do I compare stuff? Logical and comparison operators in Python
 tags: ['python', 'foundations', 'operators', 'comparison']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

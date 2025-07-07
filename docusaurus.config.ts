@@ -110,6 +110,10 @@ const config: Config = {
               label: 'Python Foundations',
               to: '/docs/python/foundations',
             },
+            {
+              label: 'Python Control Flow',
+              to: '/docs/python/control-flow',
+            },
           ],
         },
         {
@@ -123,7 +127,7 @@ const config: Config = {
               href: '/docs/python/get-set-up/python-get-set-up-website',
             },
             {
-              label: 'Jump in! Python Foundations',
+              label: 'Jump in! Intro to Python',
               href: '/docs/python/foundations',
             },
           ],
@@ -132,7 +136,7 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog for Parents and Teachers',
+              label: 'Blog for Parents, Teachers, and Adult Learners',
               to: '/blog',
             },
             {

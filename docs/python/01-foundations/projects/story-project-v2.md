@@ -8,6 +8,7 @@ description: Silly Story Project with Python for Absolute Beginners
 tags: ['python', 'project', 'silly stories', 'foundations', 'lists']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

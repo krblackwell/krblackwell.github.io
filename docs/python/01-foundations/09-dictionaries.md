@@ -8,6 +8,7 @@ description: How to use dictionaries in Python.
 tags: ['python', 'foundations', 'dictionaries']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

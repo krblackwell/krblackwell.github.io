@@ -5,9 +5,10 @@ last_update:
     date: 7/07/25
     author: krblackwell
 description: Python conditionals with an interactive story.
-tags: ['python', 'control-flow', 'conditionals', 'adventure-story']
+tags: ['python', 'control-flow', 'conditionals', 'adventure-story', 'project']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

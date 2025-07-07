@@ -8,6 +8,7 @@ description: Introductory Python - What are prints?
 tags: ['python', 'foundations', 'print']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 
@@ -107,10 +108,6 @@ goes over more than one line,
 and can contain "quoted" stuff,
 or 'single quoted' stuff,
 or a word with an apostrophe.
-You didn't know?
-Now you do!
-"That's really great," you say.
-"I know!" I exclaim.
 """)
 ```
 
@@ -123,10 +120,6 @@ Now you do!
     and can contain "quoted" stuff,  
     or 'single quoted' stuff,  
     or a word with an apostrophe.  
-    You didn't know?  
-    Now you do!  
-    "That's really great," you say.  
-    "I know!" I exclaim.  
       
 
 
@@ -249,19 +242,20 @@ print('I can use single quotes, too!')
 </div><br/>
 <!-- markdownlint-enable MD033 MD009 -->
 
-One thing that will be important if you make your text game, is you need to know how to print something with a contraction, or other things with single quotes.
+One thing that will be important if you make your text game, is you need to know how to print something with a contraction, or other things with single quotes. A contraction is a word that is two words in one, separated by an apostrophe, like "it is" = "it's"
 
-They need to be surrounded in print with double quotes. See below.
+They need to be surrounded in print with double quotes. So our line isn't too long, we separate it onto two lines. We also use a + to combine the two strings together. See below.
 
 
 ```python
-print("This print statement contains an apostrophe. I can't believe it!")
+print("This print statement contains an apostrophe, "
+      + "so it needs double quotes. It's is a contraction.")
 ```
 
 <!-- markdownlint-disable MD033 MD009 -->
 <div class="output-cell">
 
-    This print statement contains an apostrophe. I can't believe it!  
+    This print statement contains an apostrophe, so it needs double quotes. It's is a contraction.  
 
 
 </div><br/>
@@ -269,25 +263,31 @@ print("This print statement contains an apostrophe. I can't believe it!")
 
 The triple quotes also allows double quotes and single quotes inside it.
 
-Just be mindful of the types of quotes you're using in a program, and how they're `nested` with each other.
+Just be mindful of the types of quotes you're using in a program, and how they're `nested` with each other. Nested means when something is between something else. The double quotes in the example below are nested between triple quotes.
 
-The example below is like this:
+I'm going to explain to you how the quotes are in the `print()` below. "triple quotes start" and "triple quotes end" refer to the three quotation marks next to each other where you see `print("""` and `""")`.
 
-`"""`   -> triple quotes start\
-`" "`   -> double quotes start and end\
-`'`     -> a single quote by itself!\
-`' '`   -> single quote start and end\
-`" ' "` -> double quotes in single quotes\
-`"""`   -> triple quotes end
+The part that says "double quotes start and end" refers to "But I can next "double quotes" within the triple quotes."
+
+```text
+"""   -> triple quotes start
+" "   -> double quotes start and end
+'     -> a single quote by itself!
+' '   -> single quote start and end
+" ' " -> double quotes in single quotes
+"""   -> triple quotes end
+```
+
+"Keep up with the Jones's" is an expression about staying with current trends.
 
 
 ```python
 print("""
 This is all nested within triple quotes.
-But I can nest "double quotes" within the triple quotes
+But I can nest "double quotes" within the triple quotes.
 Don't you see my single quote?
 'But this is fine here too'
-"Keep up with the Jones's" if you want to use quotes
+"Keep up with the Jones's" if you want to use quotes.
 """)
 ```
 
@@ -296,10 +296,10 @@ Don't you see my single quote?
 
       
     This is all nested within triple quotes.  
-    But I can nest "double quotes" within the triple quotes  
+    But I can nest "double quotes" within the triple quotes.  
     Don't you see my single quote?  
     'But this is fine here too'  
-    "Keep up with the Jones's" if you want to use quotes  
+    "Keep up with the Jones's" if you want to use quotes.  
       
 
 
@@ -323,3 +323,4 @@ In conclusion, we learned about `print()` and how to use it.
 - We can use emojis.
 - We'll be able to make a game!
 
+After the first few lessons, go to the "projects" folder and try out [Silly Story v1](/docs/python/foundations/projects/story-project-v1). This is the first game you make.

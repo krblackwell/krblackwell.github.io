@@ -8,6 +8,7 @@ description: Learn coding! Introductory Python - What is a notebook?
 tags: ['python', 'setup']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 # What is a notebook?

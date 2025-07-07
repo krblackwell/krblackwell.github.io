@@ -8,6 +8,7 @@ description: Python Project - Compliment generator
 tags: ['python', 'foundations', 'lists']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 

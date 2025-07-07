@@ -9,6 +9,7 @@ description: Learn coding! Introductory Python - How to use the Lab?
 tags: ['python', 'setup']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 <!-- markdownlint-disable-next-line MD025 -->

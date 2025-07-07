@@ -8,6 +8,7 @@ description: How to use string methods in Python.
 tags: ['python', 'foundations', 'strings', 'methods']
 draft: False
 unlisted: False
+hide_table_of_contents: true
 ---
 
 
