@@ -2,7 +2,7 @@
   "content": [
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.376625Z",
+      "created": "2025-07-25T10:42:43.424310Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -16,7 +16,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.376885Z",
+      "created": "2025-07-25T10:42:43.424671Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -30,7 +30,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.376351Z",
+      "created": "2025-07-25T10:42:43.423930Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -44,7 +44,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.377873Z",
+      "created": "2025-07-25T10:42:43.426182Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -58,11 +58,11 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.380055Z",
+      "created": "2025-07-25T10:42:43.429791Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-07-25T10:26:58.380055Z",
+      "last_modified": "2025-07-25T10:42:43.429791Z",
       "mimetype": null,
       "name": "projects",
       "path": "python/01-foundations/projects",
@@ -72,7 +72,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.377137Z",
+      "created": "2025-07-25T10:42:43.425047Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -86,7 +86,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.377627Z",
+      "created": "2025-07-25T10:42:43.425811Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -100,7 +100,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.377371Z",
+      "created": "2025-07-25T10:42:43.425381Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -114,7 +114,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.378126Z",
+      "created": "2025-07-25T10:42:43.426604Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -128,7 +128,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.378690Z",
+      "created": "2025-07-25T10:42:43.427703Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -142,7 +142,7 @@
     },
     {
       "content": null,
-      "created": "2025-07-25T10:26:58.378423Z",
+      "created": "2025-07-25T10:42:43.427217Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
@@ -155,11 +155,11 @@
       "writable": true
     }
   ],
-  "created": "2025-07-25T10:26:58.378690Z",
+  "created": "2025-07-25T10:42:43.427703Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-07-25T10:26:58.378690Z",
+  "last_modified": "2025-07-25T10:42:43.427703Z",
   "mimetype": null,
   "name": "01-foundations",
   "path": "python/01-foundations",
