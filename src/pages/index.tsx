@@ -42,7 +42,8 @@ export default function Home(): ReactNode {
  
   <HomepageFeatures />
 </main>
-
+<script data-goatcounter="https://pebble-coding.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
     </Layout>
   );
 }

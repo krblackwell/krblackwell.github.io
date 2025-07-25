@@ -209,6 +209,20 @@ unlisted: False
   
   You have to remember all the parentheses on both sides, quotes on both sides, and spell `print` the right way.
 
+- **token**\
+  A token is a unit of meaning or language, usually in programming it is words, but it can be a piece of data also.
+  
+  ```python
+  import re
+  
+  text = "Hello, tokens! Let's tokenize this."
+
+  tokens = re.findall(r'\b\w+\b', text)
+
+  print(tokens)
+
+  ```
+
 - **user**\
   A person interacting with the software or code.
 

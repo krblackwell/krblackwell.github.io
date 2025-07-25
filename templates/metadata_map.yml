@@ -178,3 +178,13 @@ notebooks:
     tags: [python, control-flow, conditionals, adventure-story, project]
     draft: false
     unlisted: false
+
+  02-for-loops.ipynb:
+    sidebar_label: for loops
+    sidebar_position: 2
+    last_update_date: 7/20/25
+    last_update_author: krblackwell
+    description: Python for loops - learn for loops.
+    tags: [python, control-flow, loops]
+    draft: true
+    unlisted: false
