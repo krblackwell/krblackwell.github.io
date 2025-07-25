@@ -8,7 +8,11 @@ This website is created by a regular mom in the United States. I have two kids, 
 
 This site is intended to be accessible for kids, and I'm building this website assuming that children under 13 will use it.
 
-I'm not knowingly or purposely collecting any information on users, grown ups or children. However, this website uses Github Pages, and here is more information on the types of information they may collect: 
+I'm not knowingly or purposely collecting any identifying information on users, grown ups or children.
+
+### GitHub Privacy Policy
+
+However, this website uses Github Pages, and here is more information on the types of information they may collect: 
 
 - [What is Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 - [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
@@ -16,6 +20,15 @@ I'm not knowingly or purposely collecting any information on users, grown ups or
 >[From GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), last accessed 6/26/2025:
 >"When a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not.\
 >For more information about GitHub's security practices, [see GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)."
+
+### GoatCounter Privacy Policy
+
+This site also uses an open source page visit counter called GoatCounter. It's just to see how many people are visiting the pages on this site. [You can see the types of things visible to me and to GoadCounter here](https://pebble-coding.goatcounter.com/help/privacy).
+
+GoatCounter also says this about GDPR, which is a European law for the privacy and protection of data about individuals.
+
+Accessed 7/22/2025:\
+>"The short version is that GoatCounter probably doesn’t require a GDPR consent notice, on the basis that 1) no personally identifiable information is collected, and 2) it is in the legitimate interest of a site’s owner to see how many people are visiting their site. A more detailed rationale is described below."
 
 ## Cookies
 
